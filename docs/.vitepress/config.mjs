@@ -47,7 +47,7 @@ export default defineConfig({
     fr: {
       label: 'French',
       lang: 'fr',
-      link: '/fr',
+      link: '/fr/',
       themeConfig: {
         ...defaultThemeConfig,
         logo: {
@@ -56,7 +56,7 @@ export default defineConfig({
         },
         nav: [
           { text: 'Home', link: '/fr/' },
-          { text: 'Examples', link: '/markdown-examples' }
+          { text: 'Examples', link: '/fr/markdown-examples' }
         ],
 
         sidebar: [
