@@ -1,41 +1,78 @@
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
+
+const defaultThemeConfig = {
+  siteTitle: false,
+  logo: {
+    src: '/PBOML-userguide-logo.svg',
+  },
+}
+
 export default defineConfig({
-  title: "PBOML Visual Editor User Guide",
-  description: "PBOML Visual Editor User Guide",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    logo: '/PBOML-userguide-logo.svg',
+    siteTitle: false
   },
   locales: {
     root: {
       label: 'English',
-      lang: 'en'
+      lang: 'en',
+      themeConfig: {
+        ...defaultThemeConfig,
+        logo: {
+          ...defaultThemeConfig.logo,
+          alt: "PBOML Editor User Guide",
+        },
+        nav: [
+          { text: 'Home', link: '/' },
+          { text: 'Examples', link: '/markdown-examples' }
+        ],
+
+        sidebar: [
+          {
+            text: 'Examples',
+            items: [
+              { text: 'Markdown Examples', link: '/markdown-examples' },
+              { text: 'Runtime API Examples', link: '/api-examples' }
+            ]
+          }
+        ],
+
+        socialLinks: [
+          { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+        ]
+      },
     },
     fr: {
       label: 'French',
-      lang: 'fr', // optional, will be added  as `lang` attribute on `html` tag
-      link: '/fr' // default /fr/ -- shows on navbar translations menu, can be external
+      lang: 'fr',
+      link: '/fr',
+      themeConfig: {
+        ...defaultThemeConfig,
+        logo: {
+          ...defaultThemeConfig.logo,
+          alt: "Éditeur PBOML : Guide de l'utilisateur",
+        },
+        nav: [
+          { text: 'Home', link: '/fr/' },
+          { text: 'Examples', link: '/markdown-examples' }
+        ],
 
-      // other locale specific properties...
+        sidebar: [
+          {
+            text: 'Examdfgdfgples',
+            items: [
+              { text: 'Markrfsdfdown Examples', link: '/fr/markdown-examples' },
+              { text: 'Runtimdfdfgfde API Examples', link: '/fr/api-examples' }
+            ]
+          }
+        ],
+
+        socialLinks: [
+          { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+        ]
+      },
     }
   }
 })
