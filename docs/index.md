@@ -4,15 +4,14 @@ layout: home
 
 hero:
   name: "PBOML Visual Editor User Guide"
-  text: "PBOML Visual Editor User Guide"
-  tagline: My great project tagline
+  tagline: Make your document accessible
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Get started
+      link: /guide/getting-started
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: View on GitHub
+      link: https://github.com/pbo-dpb/pboml-parser--parseur-pboml/wiki
 
 features:
   - title: Feature A

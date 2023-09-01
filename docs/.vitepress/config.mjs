@@ -25,22 +25,46 @@ export default defineConfig({
           alt: "PBOML Editor User Guide",
         },
         nav: [
-          { text: 'Home', link: '/' },
-          { text: 'Examples', link: '/markdown-examples' }
+          { text: 'Guide', link: '/guide/getting-started' },
+          { text: 'FAQ', link: '/faq/' }
         ],
 
-        sidebar: [
-          {
-            text: 'Examples',
+        sidebar: {
+          '/guide/': {
+            base: '/guide/',
             items: [
-              { text: 'Markdown Examples', link: '/markdown-examples' },
-              { text: 'Runtime API Examples', link: '/api-examples' }
+              {
+                text: 'Introduction',
+                collapsed: false,
+                items: [
+                  { text: 'What is PBOML', link: 'what-is-pboml' },
+                  { text: 'Getting Started', link: 'getting-started' },
+                  { text: 'What is a Slice?', link: 'what-is-a-slice' },
+                  { text: 'Preview your Document', link: 'preview-your-document' },
+                  { text: 'Save your Document', link: 'save-your-document' },
+                ]
+              },
+              {
+                text: 'Key features',
+                collapsed: false,
+                items: [
+                  { text: 'Structure your Document', link: '/structure-your-document' },
+                ]
+              },
+              {
+                text: 'Methodology',
+                collapsed: false,
+                items: [
+                  { text: 'Headings', link: '/methodology-headings' },
+                ]
+              },
+
             ]
           }
-        ],
+        },
 
         socialLinks: [
-          { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+          { icon: 'github', link: 'https://github.com/pbo-dpb/pboml-parser--parseur-pboml' }
         ]
       },
     },
