@@ -10,6 +10,13 @@ const defaultThemeConfig = {
 }
 
 export default defineConfig({
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: tag => tag.startsWith('pboml-')
+      }
+    }
+  },
   themeConfig: {
     logo: '/PBOML-userguide-logo.svg',
     siteTitle: false
