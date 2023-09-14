@@ -40,7 +40,7 @@ export default defineConfig({
                   { text: 'What is PBOML', link: 'what-is-pboml' },
                   { text: 'Getting Started', link: 'getting-started' },
                   { text: 'What is a Slice?', link: 'what-is-a-slice' },
-                  { text: 'Recommended Workflow', link: 'recommended-workflow' },
+                  { text: 'Preview & Save', link: 'preview-and-save' },
                 ]
               },
               {
