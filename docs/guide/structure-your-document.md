@@ -24,7 +24,7 @@ Adding a new slice is very simple:
 
 1.  On the visual editor, scroll to the slice you want to duplicate
 2.  Once you find that slice, click on the duplicate button
-  `[insert delete button red trash can]`
+  `[insert Duplicate button]`
 3.  You will see an alert prompting you to confirm you decision, you will click `[OK](img)`
 
 ## Move a slice

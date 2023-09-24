@@ -2,7 +2,7 @@
 
 ## Opening the Editor
 
-Opening the editor is simple: on the Chrome browser, simply click on the PBOML link found on the Publications page of the publication you wish to edit. Here is the publication page of a LEG with the PBOML link:
+To open the editor, open any browser on your computer (preferably the Chrome browser), then click on the PBOML link found on the Publications page of the publication you wish to edit. Here is the publication page of a LEG with the PBOML link:
 
     [picture of publication page of a LEG with links with highlight on the PBOML link]
 
@@ -11,7 +11,7 @@ Opening the editor is simple: on the Chrome browser, simply click on the PBOML l
 ## Main Editing Area
 
 The editor is composed of the following areas:
--	The alerts display section
+-	The Alerts Display Section
 -	Editor View Option
 -	Editor View section
 
@@ -20,5 +20,3 @@ In Editor View Option, there are two editor views available, however this user g
 What you see in the editor view section is different depending on what editor view option you selected. We’ll only focus on the view when the editor option is set to [Edit using the visual editor].
 
     [show the editing view options when set "Edit using the visual editor"]
-
-

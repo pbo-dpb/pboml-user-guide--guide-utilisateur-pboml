@@ -13,7 +13,7 @@ If you click on the `[Preview as Raw PBOML]` button you will be able to see the 
 
   [show Preview as Raw PBOML]
 
-If you click on the `[Preview final Document](LINK)` button, you will be able to see how your document will look like once you click save.
+If you click on the `[Preview final Document]` button, you will be able to see how your document will look like once you click save.
 
 ## Save your document
 

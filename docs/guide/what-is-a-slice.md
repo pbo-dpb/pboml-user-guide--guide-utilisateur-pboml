@@ -11,8 +11,8 @@ There are currently seven types of slices that allow the PBOML editor to create 
 -	Rich Text (Markdown) Slice
 -	Heading Slice
 -	Key-Value list Slice
-- Table Slice
-- Chart Slice
+-   Table Slice
+-   Chart Slice
 -	SVG Vector Slice
 -	Bitmap Slice
 
@@ -20,5 +20,4 @@ There are currently seven types of slices that allow the PBOML editor to create 
 
 Each slice represents a different type of content. However, if a slice contains text, that text must be represented in both English and French, regardless of the slice type. Here are some examples:
 
-    [Show a ]
     [Insert BIL example in a chart]

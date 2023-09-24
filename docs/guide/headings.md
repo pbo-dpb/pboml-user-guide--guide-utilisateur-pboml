@@ -7,16 +7,10 @@ There are three ways you can add a heading to your document: with a heading slic
 A **Heading Slice** is used to represent a heading inside your document.
 
 1.  First add a title slice as explained in the `[Add a slice section]`.
-
-  `[Show picture of empty title slice]`
-
 2.  Choose the level for that heading.
-
-  `[show levels selection section]`
-
 3.  Enter the heading title content in both English and French.
 
-  **`[Show Content pasted from word] | [Show final results]`**
+  **`[Heading slice component]`**
 
 ## Inside a Slice directly
 
@@ -28,9 +22,9 @@ To add a title label inside a slice directly you must first toggle to the slice 
 
   `[Show result for a slice]`
 
-2.  Enter the title in both English and French in their respective fields.
+2.  Enter the title in the `Title` field both English and French in their respective fields.
 
-  `[Show result]`
+  `[Markdown Component]`
 
 ## Within the content of the Slice
 
@@ -38,6 +32,6 @@ This last method to add a title is not recommended because it Visual PBOML Edito
 
 Slices which have text content usually follow the markdown syntax. You can find a quick summary of that simple syntax in the [Markdown Guide]. Titles in that syntax are formatted as such:
 
-[Show md title example]
+  `[Show md title example]`
 
 For example, if your paragraph contained in the Markdown slice has text that follows that syntax, title will appear on the final document. And as mentioned, the table of content might not be correctly formatted. For these reasons, try to make sure you do not copy from Word any title or heading and instead opt for either of the two options: [] and [].

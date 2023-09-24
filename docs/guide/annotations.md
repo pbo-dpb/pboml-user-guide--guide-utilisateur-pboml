@@ -1,6 +1,6 @@
 # Annotations
 
-It is not uncommon to add annotations in a publication. The PBOML Editor allows you to add references, textual descriptions, sources, and notes to any slice you have created.
+The PBOML Editor allows you to add many types of annotations to any slice you have created, for example: references, textual descriptions, sources, and notes.
 
 ## Reference
 
