@@ -10,13 +10,6 @@ const defaultThemeConfig = {
 }
 
 export default defineConfig({
-  vue: {
-    template: {
-      compilerOptions: {
-        isCustomElement: tag => tag.startsWith('pboml-')
-      }
-    }
-  },
   themeConfig: {
     logo: '/PBOML-userguide-logo.svg',
     siteTitle: false
@@ -47,7 +40,7 @@ export default defineConfig({
                   { text: 'What is PBOML', link: 'what-is-pboml' },
                   { text: 'Getting Started', link: 'getting-started' },
                   { text: 'What is a Slice?', link: 'what-is-a-slice' },
-                  { text: 'Recommended Workflow', link: 'recommended-workflow' },
+                  { text: 'Preview & Save', link: 'preview-and-save' },
                 ]
               },
               {
@@ -55,6 +48,13 @@ export default defineConfig({
                 collapsed: false,
                 items: [
                   { text: 'Structure your Document', link: '/structure-your-document' },
+                  { text: 'Annotations', link: '/annotations' },
+                  { text: 'Paragraphs', link: '/paragraphs' },
+                  { text: 'Headings', link: '/headings' },
+                  { text: 'Tables', link: '/tables' },
+                  { text: 'Charts', link: '/charts' },
+                  { text: 'Images', link: '/images' },
+                  { text: 'Key-Value Lists', link: '/key-value-lists' },
                 ]
               },
               {
@@ -62,6 +62,13 @@ export default defineConfig({
                 collapsed: false,
                 items: [
                   { text: 'Headings', link: '/methodology-headings' },
+                  { text: 'Annotations', link: '/methodology-Key-Value Lists' },
+                  { text: 'Paragraphs', link: '/methodology-paragraphs' },
+                  { text: 'Tables', link: '/methodology-tables' },
+                  { text: 'Charts', link: '/methodology-charts' },
+                  { text: 'SVGs', link: '/methodology-svgs' },
+                  { text: 'Images', link: '/methodology-images' },
+                  { text: 'Key-Value Lists', link: '/methodology-Key-Value Lists' },
                 ]
               },
 
