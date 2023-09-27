@@ -13,5 +13,8 @@
   "license": "ISC",
   "devDependencies": {
     "vitepress": "^1.0.0-rc.10"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.0.18"
   }
 }
