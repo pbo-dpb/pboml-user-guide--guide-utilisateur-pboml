@@ -1,6 +1,6 @@
 # What is a slice
 
-To enable the editor to correctly order the document's content and differentiate between the different types of content that may exist (tables, paragraphs, images, etc.), the PBOML visual editor defines each piece of content as a slice. Each slice type is characterized by the type of content it can display.
+To enable the PBOML Visual Editor to correctly order the document's content and differentiate between the different types of content that may exist (tables, paragraphs, images, etc.), the PBOML visual editor defines each piece of content as a slice. Each slice type is characterized by the type of content it can display.
 
     [insert slice image (slide 2 – 02_Tools_1_b)]
 
