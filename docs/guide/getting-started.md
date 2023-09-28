@@ -8,7 +8,7 @@ To open the PBOML Visual Editor, go to any browser on your computer (preferably 
 3. Search and click on you desired publication
 4. Click on the *PBOML* link
 
-![publication_page_leg](https://github.com/pbo-dpb/pboml-user-guide--guide-utilisateur-pboml/blob/main/docs/public/publication_page_leg.png)
+![publication_page_leg](/publication_page_leg.png)
 
 ## Main Editing Area
 
@@ -17,7 +17,7 @@ The editor is composed of the following areas:
 -	*Editor View Option*
 -	*Editor View section*
 
-![editing_page_leg](https://github.com/pbo-dpb/pboml-user-guide--guide-utilisateur-pboml/blob/main/docs/public/editing_page_leg.png)
+![editing_page_leg](/editing_page_leg.png)
 
 In the *Editor View Option*, there are two editor views available: *Edit raw YAML* and *Edit using the visual editor*. 
 
