@@ -1,6 +1,7 @@
 import { useData, inBrowser } from 'vitepress'
 import { watchEffect } from 'vue'
 import DefaultTheme from 'vitepress/theme'
+import './custom.css'
 
 import PbomlWidget from '../../components/PbomlWidget.vue'
 
