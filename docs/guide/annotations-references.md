@@ -28,11 +28,10 @@ There are currently two supported content types: markdown and bibtex. For more d
 
 5. Finally enter your annotation for each language in their respective text field inside the annotation slice.
 
-A complete annotation slice could look like the picture on the left and be referenced like the picture on the right.
+### Demonstration - Annotation reference inside a [Markdown slice](./paragraphs.html)
 
-| | |
-|:-:|:-:|
-![annotation_slice](/annotation.png)|![annotation_reference](/annotation_reference.png)
+<PbomlWidget sample="/samples/annotation_reference.pboml.yaml" title="Add a paragraph using the Markdown slice" mode="edit"></PbomlWidget>
+
 
 ## Reference a Slice
 

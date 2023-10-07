@@ -1,0 +1,22 @@
+pboml:
+  version: 1.0.0
+slices:
+  - type: markdown
+    label: {}
+    content:
+      en: >
+        Businesses, including self-employed individuals, can defer until June
+        30, 2020 payments of the Goods and services tax (GST)/Harmonized sales
+        tax (HST), as well as customs duty owing on their imports. [^1]
+      fr: "Les entreprises, y compris les travailleurs indépendants, peuvent reporter jusqu’au 30\_juin\_2020 les versements de la taxe sur les produits et services (TPS)/taxe de vente harmonisée (TVH), ainsi que des droits de douane sur leurs importations. [^1]\n"
+annotations:
+  - id: 1
+    content_type: markdown
+    content:
+      en: Canada Revenue Agency
+      fr: Agence du revenu du Canada
+  - id: 2
+    content_type: markdown
+    content:
+      en: Canada Border Services Agency
+      fr: Agence des services frontaliers du Canada
