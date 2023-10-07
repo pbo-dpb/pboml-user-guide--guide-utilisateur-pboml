@@ -1,0 +1,983 @@
+pboml:
+  version: 1.0.0
+slices:
+  - type: table
+    label: {}
+    sources:
+      - en: Office of the Parliamentary Budget Officer.
+        fr: Bureau du directeur parlementaire du budget.
+    notes:
+      - en: >-
+          PBO estimates are based, in part, on data underlying the CFR
+          Regulatory Impact Analysis Statement provided by ECCC. Disposable
+          income is based on status quo policy (including the federal fuel
+          charge increasing to $170 per tonne, along with provincial carbon
+          pricing policies) in which the CFR are not implemented. The 1st
+          quintile represents the lowest household income quintile; the 5th
+          quintile represents the highest household income quintile.
+        fr: >-
+          Les estimations du DPB se fondent en partie sur les données qui
+          sous-tendent le Résumé de l’étude d’impact de la réglementation
+          présenté par ECCC. Le revenu disponible est calculé sur la base d’une
+          politique de statu quo (y compris une augmentation de la redevance
+          fédérale sur les combustibles à 170 $ par tonne, ainsi que les
+          politiques provinciales de tarification du carbone) dans laquelle le
+          Règlement sur les combustibles propres n’est pas mis en œuvre. Le
+          premier quintile représente le quintile de revenu du ménage le plus
+          faible; le cinquième quintile représente le quintile de revenu du
+          ménage le plus élevé.
+    content:
+      - quintile:
+          fr: 1er quintile
+          en: 1st quintile
+        usesidecost: 220
+        ofdisposableincome: 0.6
+        sourcesidecost: 11
+        ofdisposableincome3p34: 0.03
+        combinedcost: 231
+        ofdisposableincome311: 0.62
+        usesidecost_nl: 354
+        ofdisposableincome_nl: 1.03
+        sourcesidecost_nl: 8
+        ofdisposableincome3p34_nl: 0.02
+        combinedcost_nl: 362
+        ofdisposableincome311_nl: 1.05
+        usesidecost_pe: 194
+        ofdisposableincome_pe: 0.63
+        sourcesidecost_pe: 0
+        ofdisposableincome3p34_pe: 0
+        combinedcost_pe: 194
+        ofdisposableincome311_pe: 0.63
+        usesidecost_ns: 239
+        ofdisposableincome_ns: 0.75
+        sourcesidecost_ns: 21
+        ofdisposableincome3p34_ns: 0.07
+        combinedcost_ns: 260
+        ofdisposableincome311_ns: 0.81
+        usesidecost_nb: 183
+        ofdisposableincome_nb: 0.55
+        sourcesidecost_nb: 5
+        ofdisposableincome3p34_nb: 0.02
+        combinedcost_nb: 188
+        ofdisposableincome311_nb: 0.57
+        usesidecost_qc: 175
+        ofdisposableincome_qc: 0.53
+        sourcesidecost_qc: 3
+        ofdisposableincome3p34_qc: 0.01
+        combinedcost_qc: 178
+        ofdisposableincome311_qc: 0.54
+        usesidecost_on: 211
+        ofdisposableincome_on: 0.52
+        sourcesidecost_on: 6
+        ofdisposableincome3p34_on: 0.01
+        combinedcost_on: 217
+        ofdisposableincome311_on: 0.54
+        usesidecost_mb: 230
+        ofdisposableincome_mb: 0.6
+        sourcesidecost_mb: 7
+        ofdisposableincome3p34_mb: 0.02
+        combinedcost_mb: 237
+        ofdisposableincome311_mb: 0.62
+        usesidecost_sk: 379
+        ofdisposableincome_sk: 0.92
+        sourcesidecost_sk: 24
+        ofdisposableincome3p34_sk: 0.06
+        combinedcost_sk: 403
+        ofdisposableincome311_sk: 0.98
+        usesidecost_ab: 311
+        ofdisposableincome_ab: 0.7
+        sourcesidecost_ab: 59
+        ofdisposableincome3p34_ab: 0.13
+        combinedcost_ab: 370
+        ofdisposableincome311_ab: 0.84
+        usesidecost_bc: 200
+        ofdisposableincome_bc: 0.56
+        sourcesidecost_bc: 2
+        ofdisposableincome3p34_bc: 0.01
+        combinedcost_bc: 202
+        ofdisposableincome311_bc: 0.56
+        tensions: 0
+      - quintile:
+          en: 2nd quintile
+          fr: 2e quintile
+        usesidecost: 318
+        ofdisposableincome: 0.46
+        sourcesidecost: 43
+        ofdisposableincome3p34: 0.06
+        combinedcost: 361
+        ofdisposableincome311: 0.53
+        usesidecost_nl: 542
+        ofdisposableincome_nl: 0.97
+        sourcesidecost_nl: 98
+        ofdisposableincome3p34_nl: 0.17
+        combinedcost_nl: 640
+        ofdisposableincome311_nl: 1.14
+        usesidecost_pe: 329
+        ofdisposableincome_pe: 0.57
+        sourcesidecost_pe: 34
+        ofdisposableincome3p34_pe: 0.06
+        combinedcost_pe: 363
+        ofdisposableincome311_pe: 0.63
+        usesidecost_ns: 312
+        ofdisposableincome_ns: 0.53
+        sourcesidecost_ns: 57
+        ofdisposableincome3p34_ns: 0.1
+        combinedcost_ns: 369
+        ofdisposableincome311_ns: 0.63
+        usesidecost_nb: 316
+        ofdisposableincome_nb: 0.55
+        sourcesidecost_nb: 31
+        ofdisposableincome3p34_nb: 0.05
+        combinedcost_nb: 347
+        ofdisposableincome311_nb: 0.6
+        usesidecost_qc: 271
+        ofdisposableincome_qc: 0.46
+        sourcesidecost_qc: 22
+        ofdisposableincome3p34_qc: 0.04
+        combinedcost_qc: 293
+        ofdisposableincome311_qc: 0.5
+        usesidecost_on: 301
+        ofdisposableincome_on: 0.41
+        sourcesidecost_on: 21
+        ofdisposableincome3p34_on: 0.03
+        combinedcost_on: 322
+        ofdisposableincome311_on: 0.43
+        usesidecost_mb: 368
+        ofdisposableincome_mb: 0.54
+        sourcesidecost_mb: 41
+        ofdisposableincome3p34_mb: 0.06
+        combinedcost_mb: 408
+        ofdisposableincome311_mb: 0.6
+        usesidecost_sk: 544
+        ofdisposableincome_sk: 0.77
+        sourcesidecost_sk: 114
+        ofdisposableincome3p34_sk: 0.16
+        combinedcost_sk: 659
+        ofdisposableincome311_sk: 0.93
+        usesidecost_ab: 444
+        ofdisposableincome_ab: 0.56
+        sourcesidecost_ab: 211
+        ofdisposableincome3p34_ab: 0.27
+        combinedcost_ab: 655
+        ofdisposableincome311_ab: 0.83
+        usesidecost_bc: 260
+        ofdisposableincome_bc: 0.36
+        sourcesidecost_bc: 14
+        ofdisposableincome3p34_bc: 0.02
+        combinedcost_bc: 274
+        ofdisposableincome311_bc: 0.38
+        tensions: 0
+      - quintile:
+          en: 3rd quintile
+          fr: 3e quintile
+        usesidecost: 433
+        ofdisposableincome: 0.42
+        sourcesidecost: 99
+        ofdisposableincome3p34: 0.1
+        combinedcost: 532
+        ofdisposableincome311: 0.52
+        usesidecost_nl: 744
+        ofdisposableincome_nl: 0.87
+        sourcesidecost_nl: 101
+        ofdisposableincome3p34_nl: 0.12
+        combinedcost_nl: 844
+        ofdisposableincome311_nl: 0.99
+        usesidecost_pe: 457
+        ofdisposableincome_pe: 0.54
+        sourcesidecost_pe: 81
+        ofdisposableincome3p34_pe: 0.1
+        combinedcost_pe: 538
+        ofdisposableincome311_pe: 0.64
+        usesidecost_ns: 514
+        ofdisposableincome_ns: 0.61
+        sourcesidecost_ns: 121
+        ofdisposableincome3p34_ns: 0.14
+        combinedcost_ns: 635
+        ofdisposableincome311_ns: 0.75
+        usesidecost_nb: 420
+        ofdisposableincome_nb: 0.49
+        sourcesidecost_nb: 65
+        ofdisposableincome3p34_nb: 0.08
+        combinedcost_nb: 485
+        ofdisposableincome311_nb: 0.56
+        usesidecost_qc: 344
+        ofdisposableincome_qc: 0.39
+        sourcesidecost_qc: 50
+        ofdisposableincome3p34_qc: 0.06
+        combinedcost_qc: 394
+        ofdisposableincome311_qc: 0.45
+        usesidecost_on: 444
+        ofdisposableincome_on: 0.4
+        sourcesidecost_on: 58
+        ofdisposableincome3p34_on: 0.05
+        combinedcost_on: 502
+        ofdisposableincome311_on: 0.45
+        usesidecost_mb: 489
+        ofdisposableincome_mb: 0.5
+        sourcesidecost_mb: 102
+        ofdisposableincome3p34_mb: 0.1
+        combinedcost_mb: 592
+        ofdisposableincome311_mb: 0.6
+        usesidecost_sk: 717
+        ofdisposableincome_sk: 0.67
+        sourcesidecost_sk: 284
+        ofdisposableincome3p34_sk: 0.26
+        combinedcost_sk: 1001
+        ofdisposableincome311_sk: 0.93
+        usesidecost_ab: 536
+        ofdisposableincome_ab: 0.46
+        sourcesidecost_ab: 399
+        ofdisposableincome3p34_ab: 0.34
+        combinedcost_ab: 935
+        ofdisposableincome311_ab: 0.8
+        usesidecost_bc: 350
+        ofdisposableincome_bc: 0.32
+        sourcesidecost_bc: 34
+        ofdisposableincome3p34_bc: 0.03
+        combinedcost_bc: 384
+        ofdisposableincome311_bc: 0.35
+        tensions: 0
+      - quintile:
+          en: 4th quintile
+          fr: 4e quintile
+        usesidecost: 555
+        ofdisposableincome: 3.37
+        sourcesidecost: 179
+        ofdisposableincome3p34: 0.12
+        combinedcost: 734
+        ofdisposableincome311: 0.49
+        usesidecost_nl: 752
+        ofdisposableincome_nl: 0.61
+        sourcesidecost_nl: 326
+        ofdisposableincome3p34_nl: 0.26
+        combinedcost_nl: 1079
+        ofdisposableincome311_nl: 0.87
+        usesidecost_pe: 596
+        ofdisposableincome_pe: 0.49
+        sourcesidecost_pe: 143
+        ofdisposableincome3p34_pe: 0.12
+        combinedcost_pe: 739
+        ofdisposableincome311_pe: 0.61
+        usesidecost_ns: 583
+        ofdisposableincome_ns: 0.48
+        sourcesidecost_ns: 211
+        ofdisposableincome3p34_ns: 0.17
+        combinedcost_ns: 794
+        ofdisposableincome311_ns: 0.65
+        usesidecost_nb: 495
+        ofdisposableincome_nb: 0.41
+        sourcesidecost_nb: 123
+        ofdisposableincome3p34_nb: 0.1
+        combinedcost_nb: 618
+        ofdisposableincome311_nb: 0.51
+        usesidecost_qc: 476
+        ofdisposableincome_qc: 0.37
+        sourcesidecost_qc: 84
+        ofdisposableincome3p34_qc: 0.07
+        combinedcost_qc: 560
+        ofdisposableincome311_qc: 0.44
+        usesidecost_on: 515
+        ofdisposableincome_on: 0.32
+        sourcesidecost_on: 96
+        ofdisposableincome3p34_on: 0.06
+        combinedcost_on: 611
+        ofdisposableincome311_on: 0.38
+        usesidecost_mb: 608
+        ofdisposableincome_mb: 0.43
+        sourcesidecost_mb: 154
+        ofdisposableincome3p34_mb: 0.11
+        combinedcost_mb: 762
+        ofdisposableincome311_mb: 0.54
+        usesidecost_sk: 946
+        ofdisposableincome_sk: 0.63
+        sourcesidecost_sk: 467
+        ofdisposableincome3p34_sk: 0.31
+        combinedcost_sk: 1414
+        ofdisposableincome311_sk: 0.94
+        usesidecost_ab: 842
+        ofdisposableincome_ab: 0.5
+        sourcesidecost_ab: 712
+        ofdisposableincome3p34_ab: 0.42
+        combinedcost_ab: 1554
+        ofdisposableincome311_ab: 0.92
+        usesidecost_bc: 445
+        ofdisposableincome_bc: 0.29
+        sourcesidecost_bc: 51
+        ofdisposableincome3p34_bc: 0.03
+        combinedcost_bc: 497
+        ofdisposableincome311_bc: 0.32
+        tensions: 0
+      - quintile:
+          en: 5th quintile
+          fr: 5e quintile
+        usesidecost: 653
+        ofdisposableincome: 0.22
+        sourcesidecost: 356
+        ofdisposableincome3p34: 0.12
+        combinedcost: 1008
+        ofdisposableincome311: 0.35
+        usesidecost_nl: 915
+        ofdisposableincome_nl: 0.4
+        sourcesidecost_nl: 410
+        ofdisposableincome3p34_nl: 0.18
+        combinedcost_nl: 1325
+        ofdisposableincome311_nl: 0.57
+        usesidecost_pe: 770
+        ofdisposableincome_pe: 0.35
+        sourcesidecost_pe: 240
+        ofdisposableincome3p34_pe: 0.11
+        combinedcost_pe: 1010
+        ofdisposableincome311_pe: 0.47
+        usesidecost_ns: 719
+        ofdisposableincome_ns: 0.32
+        sourcesidecost_ns: 396
+        ofdisposableincome3p34_ns: 0.18
+        combinedcost_ns: 1115
+        ofdisposableincome311_ns: 0.5
+        usesidecost_nb: 624
+        ofdisposableincome_nb: 0.29
+        sourcesidecost_nb: 244
+        ofdisposableincome3p34_nb: 0.11
+        combinedcost_nb: 868
+        ofdisposableincome311_nb: 0.4
+        usesidecost_qc: 593
+        ofdisposableincome_qc: 0.24
+        sourcesidecost_qc: 163
+        ofdisposableincome3p34_qc: 0.07
+        combinedcost_qc: 755
+        ofdisposableincome311_qc: 0.31
+        usesidecost_on: 647
+        ofdisposableincome_on: 0.2
+        sourcesidecost_on: 178
+        ofdisposableincome3p34_on: 0.06
+        combinedcost_on: 825
+        ofdisposableincome311_on: 0.26
+        usesidecost_mb: 823
+        ofdisposableincome_mb: 0.31
+        sourcesidecost_mb: 233
+        ofdisposableincome3p34_mb: 0.09
+        combinedcost_mb: 1056
+        ofdisposableincome311_mb: 0.4
+        usesidecost_sk: 1299
+        ofdisposableincome_sk: 0.48
+        sourcesidecost_sk: 811
+        ofdisposableincome3p34_sk: 0.3
+        combinedcost_sk: 2110
+        ofdisposableincome311_sk: 0.78
+        usesidecost_ab: 716
+        ofdisposableincome_ab: 0.23
+        sourcesidecost_ab: 1553
+        ofdisposableincome3p34_ab: 0.49
+        combinedcost_ab: 2269
+        ofdisposableincome311_ab: 0.71
+        usesidecost_bc: 503
+        ofdisposableincome_bc: 0.16
+        sourcesidecost_bc: 60
+        ofdisposableincome3p34_bc: 0.02
+        combinedcost_bc: 564
+        ofdisposableincome311_bc: 0.18
+        tensions: 0
+      - quintile:
+          en: Average
+          fr: Moyenne
+        usesidecost: 436
+        ofdisposableincome: 0.34
+        sourcesidecost: 137
+        ofdisposableincome3p34: 0.11
+        combinedcost: 573
+        ofdisposableincome311: 0.44
+        usesidecost_nl: 661
+        ofdisposableincome_nl: 0.62
+        sourcesidecost_nl: 189
+        ofdisposableincome3p34_nl: 0.18
+        combinedcost_nl: 850
+        ofdisposableincome311_nl: 0.8
+        usesidecost_pe: 470
+        ofdisposableincome_pe: 0.46
+        sourcesidecost_pe: 100
+        ofdisposableincome3p34_pe: 0.1
+        combinedcost_pe: 569
+        ofdisposableincome311_pe: 0.56
+        usesidecost_ns: 473
+        ofdisposableincome_ns: 0.46
+        sourcesidecost_ns: 161
+        ofdisposableincome3p34_ns: 0.16
+        combinedcost_ns: 635
+        ofdisposableincome311_ns: 0.61
+        usesidecost_nb: 408
+        ofdisposableincome_nb: 0.4
+        sourcesidecost_nb: 94
+        ofdisposableincome3p34_nb: 0.09
+        combinedcost_nb: 501
+        ofdisposableincome311_nb: 0.49
+        usesidecost_qc: 372
+        ofdisposableincome_qc: 0.34
+        sourcesidecost_qc: 64
+        ofdisposableincome3p34_qc: 0.06
+        combinedcost_qc: 436
+        ofdisposableincome311_qc: 0.39
+        usesidecost_on: 424
+        ofdisposableincome_on: 0.3
+        sourcesidecost_on: 72
+        ofdisposableincome3p34_on: 0.05
+        combinedcost_on: 495
+        ofdisposableincome311_on: 0.35
+        usesidecost_mb: 504
+        ofdisposableincome_mb: 0.41
+        sourcesidecost_mb: 107
+        ofdisposableincome3p34_mb: 0.09
+        combinedcost_mb: 611
+        ofdisposableincome311_mb: 0.5
+        usesidecost_sk: 777
+        ofdisposableincome_sk: 0.6
+        sourcesidecost_sk: 340
+        ofdisposableincome3p34_sk: 0.26
+        combinedcost_sk: 1117
+        ofdisposableincome311_sk: 0.87
+        usesidecost_ab: 570
+        ofdisposableincome_ab: 0.39
+        sourcesidecost_ab: 857
+        ofdisposableincome3p34_ab: 0.4
+        combinedcost_ab: 1157
+        ofdisposableincome311_ab: 0.8
+        usesidecost_bc: 352
+        ofdisposableincome_bc: 0.26
+        sourcesidecost_bc: 32
+        ofdisposableincome3p34_bc: 0.02
+        combinedcost_bc: 384
+        ofdisposableincome311_bc: 0.28
+        tensions: 0
+    variables:
+      quintile:
+        label:
+          en: Quintile
+          fr: Quintile
+        is_descriptive: true
+      usesidecost:
+        label:
+          en: Use-side cost
+          fr: Use-side cost
+        type: number
+        group:
+          en: Canada
+          fr: Canada
+      ofdisposableincome:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Canada
+          fr: Canada
+      sourcesidecost:
+        label:
+          en: Source-side cost
+          fr: Source-side cost
+        type: number
+        group:
+          en: Canada
+          fr: Canada
+      ofdisposableincome3p34:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Canada
+          fr: Canada
+      combinedcost:
+        label:
+          en: Combined cost
+          fr: Combined cost
+        type: number
+        group:
+          en: Canada
+          fr: Canada
+      ofdisposableincome311:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Canada
+          fr: Canada
+      usesidecost_nl:
+        label:
+          en: Use-side cost
+          fr: Use-side cost
+        type: number
+        group:
+          en: Newfoundland and Labrador
+          fr: Terre-Neuve-et-Labrador
+      ofdisposableincome_nl:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Newfoundland and Labrador
+          fr: Terre-Neuve-et-Labrador
+      sourcesidecost_nl:
+        label:
+          en: Source-side cost
+          fr: Source-side cost
+        type: number
+        group:
+          en: Newfoundland and Labrador
+          fr: Terre-Neuve-et-Labrador
+      ofdisposableincome3p34_nl:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Newfoundland and Labrador
+          fr: Terre-Neuve-et-Labrador
+      combinedcost_nl:
+        label:
+          en: Combined cost
+          fr: Combined cost
+        type: number
+        group:
+          en: Newfoundland and Labrador
+          fr: Terre-Neuve-et-Labrador
+      ofdisposableincome311_nl:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Newfoundland and Labrador
+          fr: Terre-Neuve-et-Labrador
+      usesidecost_pe:
+        label:
+          en: Use-side cost
+          fr: Use-side cost
+        type: number
+        group:
+          en: Prince Edward Island
+          fr: Île-du-Prince-Édouard
+      ofdisposableincome_pe:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Prince Edward Island
+          fr: Île-du-Prince-Édouard
+      sourcesidecost_pe:
+        label:
+          en: Source-side cost
+          fr: Source-side cost
+        type: number
+        group:
+          en: Prince Edward Island
+          fr: Île-du-Prince-Édouard
+      ofdisposableincome3p34_pe:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Prince Edward Island
+          fr: Île-du-Prince-Édouard
+      combinedcost_pe:
+        label:
+          en: Combined cost
+          fr: Combined cost
+        type: number
+        group:
+          en: Prince Edward Island
+          fr: Île-du-Prince-Édouard
+      ofdisposableincome311_pe:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Prince Edward Island
+          fr: Île-du-Prince-Édouard
+      usesidecost_ns:
+        label:
+          en: Use-side cost
+          fr: Use-side cost
+        type: number
+        group:
+          en: Nova Scotia
+          fr: Nouvelle-Écosse
+      ofdisposableincome_ns:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Nova Scotia
+          fr: Nouvelle-Écosse
+      sourcesidecost_ns:
+        label:
+          en: Source-side cost
+          fr: Source-side cost
+        type: number
+        group:
+          en: Nova Scotia
+          fr: Nouvelle-Écosse
+      ofdisposableincome3p34_ns:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Nova Scotia
+          fr: Nouvelle-Écosse
+      combinedcost_ns:
+        label:
+          en: Combined cost
+          fr: Combined cost
+        type: number
+        group:
+          en: Nova Scotia
+          fr: Nouvelle-Écosse
+      ofdisposableincome311_ns:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Nova Scotia
+          fr: Nouvelle-Écosse
+      usesidecost_nb:
+        label:
+          en: Use-side cost
+          fr: Use-side cost
+        type: number
+        group:
+          en: New Brunswick
+          fr: Nouveau-Brunswick
+      ofdisposableincome_nb:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: New Brunswick
+          fr: Nouveau-Brunswick
+      sourcesidecost_nb:
+        label:
+          en: Source-side cost
+          fr: Source-side cost
+        type: number
+        group:
+          en: New Brunswick
+          fr: Nouveau-Brunswick
+      ofdisposableincome3p34_nb:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: New Brunswick
+          fr: Nouveau-Brunswick
+      combinedcost_nb:
+        label:
+          en: Combined cost
+          fr: Combined cost
+        type: number
+        group:
+          en: New Brunswick
+          fr: Nouveau-Brunswick
+      ofdisposableincome311_nb:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: New Brunswick
+          fr: Nouveau-Brunswick
+      usesidecost_qc:
+        label:
+          en: Use-side cost
+          fr: Use-side cost
+        type: number
+        group:
+          en: Quebec
+          fr: Québec
+      ofdisposableincome_qc:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Quebec
+          fr: Québec
+      sourcesidecost_qc:
+        label:
+          en: Source-side cost
+          fr: Source-side cost
+        type: number
+        group:
+          en: Quebec
+          fr: Québec
+      ofdisposableincome3p34_qc:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Quebec
+          fr: Québec
+      combinedcost_qc:
+        label:
+          en: Combined cost
+          fr: Combined cost
+        type: number
+        group:
+          en: Quebec
+          fr: Québec
+      ofdisposableincome311_qc:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Quebec
+          fr: Québec
+      usesidecost_on:
+        label:
+          en: Use-side cost
+          fr: Use-side cost
+        type: number
+        group:
+          en: Ontario
+          fr: Ontario
+      ofdisposableincome_on:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Ontario
+          fr: Ontario
+      sourcesidecost_on:
+        label:
+          en: Source-side cost
+          fr: Source-side cost
+        type: number
+        group:
+          en: Ontario
+          fr: Ontario
+      ofdisposableincome3p34_on:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Ontario
+          fr: Ontario
+      combinedcost_on:
+        label:
+          en: Combined cost
+          fr: Combined cost
+        type: number
+        group:
+          en: Ontario
+          fr: Ontario
+      ofdisposableincome311_on:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Ontario
+          fr: Ontario
+      usesidecost_mb:
+        label:
+          en: Use-side cost
+          fr: Use-side cost
+        type: number
+        group:
+          en: Manitoba
+          fr: Manitoba
+      ofdisposableincome_mb:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Manitoba
+          fr: Manitoba
+      sourcesidecost_mb:
+        label:
+          en: Source-side cost
+          fr: Source-side cost
+        type: number
+        group:
+          en: Manitoba
+          fr: Manitoba
+      ofdisposableincome3p34_mb:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Manitoba
+          fr: Manitoba
+      combinedcost_mb:
+        label:
+          en: Combined cost
+          fr: Combined cost
+        type: number
+        group:
+          en: Manitoba
+          fr: Manitoba
+      ofdisposableincome311_mb:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Manitoba
+          fr: Manitoba
+      usesidecost_sk:
+        label:
+          en: Use-side cost
+          fr: Use-side cost
+        type: number
+        group:
+          en: Saskatchewan
+          fr: Saskatchewan
+      ofdisposableincome_sk:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Saskatchewan
+          fr: Saskatchewan
+      sourcesidecost_sk:
+        label:
+          en: Source-side cost
+          fr: Source-side cost
+        type: number
+        group:
+          en: Saskatchewan
+          fr: Saskatchewan
+      ofdisposableincome3p34_sk:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Saskatchewan
+          fr: Saskatchewan
+      combinedcost_sk:
+        label:
+          en: Combined cost
+          fr: Combined cost
+        type: number
+        group:
+          en: Saskatchewan
+          fr: Saskatchewan
+      ofdisposableincome311_sk:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Saskatchewan
+          fr: Saskatchewan
+      usesidecost_ab:
+        label:
+          en: Use-side cost
+          fr: Use-side cost
+        type: number
+        group:
+          en: Alberta
+          fr: Alberta
+      ofdisposableincome_ab:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Alberta
+          fr: Alberta
+      sourcesidecost_ab:
+        label:
+          en: Source-side cost
+          fr: Source-side cost
+        type: number
+        group:
+          en: Alberta
+          fr: Alberta
+      ofdisposableincome3p34_ab:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Alberta
+          fr: Alberta
+      combinedcost_ab:
+        label:
+          en: Combined cost
+          fr: Combined cost
+        type: number
+        group:
+          en: Alberta
+          fr: Alberta
+      ofdisposableincome311_ab:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Alberta
+          fr: Alberta
+      usesidecost_bc:
+        label:
+          en: Use-side cost
+          fr: Use-side cost
+        type: number
+        group:
+          en: British Columbia
+          fr: Colombie-Britannique
+      ofdisposableincome_bc:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: British Columbia
+          fr: Colombie-Britannique
+      sourcesidecost_bc:
+        label:
+          en: Source-side cost
+          fr: Source-side cost
+        type: number
+        group:
+          en: British Columbia
+          fr: Colombie-Britannique
+      ofdisposableincome3p34_bc:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: British Columbia
+          fr: Colombie-Britannique
+      combinedcost_bc:
+        label:
+          en: Combined cost
+          fr: Combined cost
+        type: number
+        group:
+          en: British Columbia
+          fr: Colombie-Britannique
+      ofdisposableincome311_bc:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: British Columbia
+          fr: Colombie-Britannique

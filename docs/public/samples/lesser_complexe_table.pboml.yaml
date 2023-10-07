@@ -1,0 +1,233 @@
+pboml:
+  version: 1.0.0
+document:
+  release_date: null
+  title: {}
+  type: {}
+  copyright: {}
+slices:
+  - type: table
+    label: {}
+    sources:
+      - en: Office of the Parliamentary Budget Officer.
+        fr: Bureau du directeur parlementaire du budget.
+    notes:
+      - en: >-
+          PBO estimates are based, in part, on data underlying the CFR
+          Regulatory Impact Analysis Statement provided by ECCC. Disposable
+          income is based on status quo policy (including the federal fuel
+          charge increasing to $170 per tonne, along with provincial carbon
+          pricing policies) in which the CFR are not implemented. The 1st
+          quintile represents the lowest household income quintile; the 5th
+          quintile represents the highest household income quintile.
+        fr: >-
+          Les estimations du DPB se fondent en partie sur les données qui
+          sous-tendent le Résumé de l’étude d’impact de la réglementation
+          présenté par ECCC. Le revenu disponible est calculé sur la base d’une
+          politique de statu quo (y compris une augmentation de la redevance
+          fédérale sur les combustibles à 170 $ par tonne, ainsi que les
+          politiques provinciales de tarification du carbone) dans laquelle le
+          Règlement sur les combustibles propres n’est pas mis en œuvre. Le
+          premier quintile représente le quintile de revenu du ménage le plus
+          faible; le cinquième quintile représente le quintile de revenu du
+          ménage le plus élevé.
+    content:
+      - quintile:
+          fr: 1er quintile
+          en: 1st quintile
+        usesidecost_nl: 354
+        ofdisposableincome_nl: 1.03
+        sourcesidecost_nl: 8
+        ofdisposableincome3p34_nl: 0.02
+        combinedcost_nl: 362
+        ofdisposableincome311_nl: 1.05
+        usesidecost_pe: 194
+        ofdisposableincome_pe: 0.63
+        sourcesidecost_pe: 0
+        ofdisposableincome3p34_pe: 0
+        combinedcost_pe: 194
+        ofdisposableincome311_pe: 0.63
+        tensions: 0
+      - quintile:
+          en: 2nd quintile
+          fr: 2e quintile
+        usesidecost_nl: 542
+        ofdisposableincome_nl: 0.97
+        sourcesidecost_nl: 98
+        ofdisposableincome3p34_nl: 0.17
+        combinedcost_nl: 640
+        ofdisposableincome311_nl: 1.14
+        usesidecost_pe: 329
+        ofdisposableincome_pe: 0.57
+        sourcesidecost_pe: 34
+        ofdisposableincome3p34_pe: 0.06
+        combinedcost_pe: 363
+        ofdisposableincome311_pe: 0.63
+        tensions: 0
+      - quintile:
+          en: 3rd quintile
+          fr: 3e quintile
+        usesidecost_nl: 744
+        ofdisposableincome_nl: 0.87
+        sourcesidecost_nl: 101
+        ofdisposableincome3p34_nl: 0.12
+        combinedcost_nl: 844
+        ofdisposableincome311_nl: 0.99
+        usesidecost_pe: 457
+        ofdisposableincome_pe: 0.54
+        sourcesidecost_pe: 81
+        ofdisposableincome3p34_pe: 0.1
+        combinedcost_pe: 538
+        ofdisposableincome311_pe: 0.64
+        tensions: 0
+      - quintile:
+          en: 4th quintile
+          fr: 4e quintile
+        usesidecost_nl: 752
+        ofdisposableincome_nl: 0.61
+        sourcesidecost_nl: 326
+        ofdisposableincome3p34_nl: 0.26
+        combinedcost_nl: 1079
+        ofdisposableincome311_nl: 0.87
+        usesidecost_pe: 596
+        ofdisposableincome_pe: 0.49
+        sourcesidecost_pe: 143
+        ofdisposableincome3p34_pe: 0.12
+        combinedcost_pe: 739
+        ofdisposableincome311_pe: 0.61
+        tensions: 0
+      - quintile:
+          en: 5th quintile
+          fr: 5e quintile
+        usesidecost_nl: 915
+        ofdisposableincome_nl: 0.4
+        sourcesidecost_nl: 410
+        ofdisposableincome3p34_nl: 0.18
+        combinedcost_nl: 1325
+        ofdisposableincome311_nl: 0.57
+        usesidecost_pe: 770
+        ofdisposableincome_pe: 0.35
+        sourcesidecost_pe: 240
+        ofdisposableincome3p34_pe: 0.11
+        combinedcost_pe: 1010
+        ofdisposableincome311_pe: 0.47
+        tensions: 0
+      - quintile:
+          en: Average
+          fr: Moyenne
+        usesidecost_nl: 661
+        ofdisposableincome_nl: 0.62
+        sourcesidecost_nl: 189
+        ofdisposableincome3p34_nl: 0.18
+        combinedcost_nl: 850
+        ofdisposableincome311_nl: 0.8
+        usesidecost_pe: 470
+        ofdisposableincome_pe: 0.46
+        sourcesidecost_pe: 100
+        ofdisposableincome3p34_pe: 0.1
+        combinedcost_pe: 569
+        ofdisposableincome311_pe: 0.56
+        tensions: 0
+    variables:
+      quintile:
+        label:
+          en: Quintile
+          fr: Quintile
+        is_descriptive: true
+      usesidecost_nl:
+        label:
+          en: Use-side cost
+          fr: Use-side cost
+        type: number
+        group:
+          en: Newfoundland and Labrador
+          fr: Terre-Neuve-et-Labrador
+      ofdisposableincome_nl:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Newfoundland and Labrador
+          fr: Terre-Neuve-et-Labrador
+      sourcesidecost_nl:
+        label:
+          en: Source-side cost
+          fr: Source-side cost
+        type: number
+        group:
+          en: Newfoundland and Labrador
+          fr: Terre-Neuve-et-Labrador
+      ofdisposableincome3p34_nl:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Newfoundland and Labrador
+          fr: Terre-Neuve-et-Labrador
+      combinedcost_nl:
+        label:
+          en: Combined cost
+          fr: Combined cost
+        type: number
+        group:
+          en: Newfoundland and Labrador
+          fr: Terre-Neuve-et-Labrador
+      ofdisposableincome311_nl:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Newfoundland and Labrador
+          fr: Terre-Neuve-et-Labrador
+      usesidecost_pe:
+        label:
+          en: Use-side cost
+          fr: Use-side cost
+        type: number
+        group:
+          en: Prince Edward Island
+          fr: Île-du-Prince-Édouard
+      ofdisposableincome_pe:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Prince Edward Island
+          fr: Île-du-Prince-Édouard
+      sourcesidecost_pe:
+        label:
+          en: Source-side cost
+          fr: Source-side cost
+        type: number
+        group:
+          en: Prince Edward Island
+          fr: Île-du-Prince-Édouard
+      ofdisposableincome3p34_pe:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Prince Edward Island
+          fr: Île-du-Prince-Édouard
+      combinedcost_pe:
+        label:
+          en: Combined cost
+          fr: Combined cost
+        type: number
+        group:
+          en: Prince Edward Island
+          fr: Île-du-Prince-Édouard
+      ofdisposableincome311_pe:
+        label:
+          en: '% of disposable income'
+          fr: '% of disposable income'
+        type: number
+        group:
+          en: Prince Edward Island
+          fr: Île-du-Prince-Édouard
+annotations: []
