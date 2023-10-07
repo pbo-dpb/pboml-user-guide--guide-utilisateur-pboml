@@ -48,7 +48,7 @@ export default defineConfig({
                 collapsed: false,
                 items: [
                   { text: 'Structure your Document', link: '/structure-your-document' },
-                  { text: 'Annotations', link: '/annotations' },
+                  { text: 'Annotations & References', link: '/annotations-references' },
                   { text: 'Paragraphs', link: '/paragraphs' },
                   { text: 'Headings', link: '/headings' },
                   { text: 'Tables', link: '/tables' },
