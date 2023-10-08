@@ -1,0 +1,407 @@
+pboml:
+  version: 1.0.0
+slices:
+  - type: svg
+    referenced_as:
+      en: Figure 1-1
+      fr: Figure 1-1
+    label:
+      en: >-
+        Net Income (or loss) by oil and gas extraction and support services
+        (left axis) and Gross Domestic Product for the oil and gas sector at
+        basic prices (right axis) between 2010 to 2021
+      fr: >-
+        Bénéfices (ou pertes) nets du secteur de l’extraction de pétrole et de
+        gaz et des activités de soutien (axe de gauche) et produit intérieur
+        brut pour le secteur pétrolier et gazier aux prix de base (axe de
+        droite) entre 2010 et 2021
+    content:
+      en: >-
+        <svg width="2107" height="1344" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+        overflow="hidden" viewBox="0 0 2107 1344"><defs><clipPath
+        id="clip0"><rect x="0" y="0" width="2107"
+        height="1344"></rect></clipPath><clipPath id="clip1"><rect x="0" y="0"
+        width="2107" height="1344"></rect></clipPath><clipPath id="clip2"><rect
+        x="313" y="50" width="1496" height="1142"></rect></clipPath><clipPath
+        id="clip3"><rect x="313" y="50" width="1496"
+        height="1142"></rect></clipPath><clipPath id="clip4"><rect x="0" y="0"
+        width="2107" height="1344"></rect></clipPath><clipPath id="clip5"><rect
+        x="0" y="0" width="2107" height="1344"></rect></clipPath><clipPath
+        id="clip6"><rect x="0" y="0" width="2107"
+        height="1344"></rect></clipPath><clipPath id="clip7"><rect x="0" y="0"
+        width="2107" height="1344"></rect></clipPath><clipPath id="clip8"><rect
+        x="0" y="0" width="2107" height="1344"></rect></clipPath><clipPath
+        id="clip9"><rect x="0" y="0" width="2107"
+        height="1344"></rect></clipPath><clipPath id="clip10"><rect x="0" y="0"
+        width="2107" height="1344"></rect></clipPath><clipPath id="clip11"><rect
+        x="0" y="0" width="2107" height="1344"></rect></clipPath><clipPath
+        id="clip12"><rect x="0" y="0" width="2107"
+        height="1344"></rect></clipPath><clipPath id="clip13"><rect x="0" y="0"
+        width="2107" height="1344"></rect></clipPath><clipPath id="clip14"><rect
+        x="0" y="0" width="2107" height="1344"></rect></clipPath><clipPath
+        id="clip15"><rect x="0" y="0" width="2107"
+        height="1344"></rect></clipPath><clipPath id="clip16"><rect x="0" y="0"
+        width="2107" height="1344"></rect></clipPath><clipPath id="clip17"><rect
+        x="0" y="0" width="2107" height="1344"></rect></clipPath><clipPath
+        id="clip18"><rect x="0" y="0" width="2107"
+        height="1344"></rect></clipPath><clipPath id="clip19"><rect x="0" y="0"
+        width="2107" height="1344"></rect></clipPath><clipPath id="clip20"><rect
+        x="0" y="0" width="2107" height="1344"></rect></clipPath><clipPath
+        id="clip21"><rect x="0" y="0" width="2107"
+        height="1344"></rect></clipPath><clipPath id="clip22"><rect x="0" y="0"
+        width="2107" height="1344"></rect></clipPath><clipPath id="clip23"><rect
+        x="0" y="0" width="2107" height="1344"></rect></clipPath><clipPath
+        id="clip24"><rect x="0" y="0" width="2107"
+        height="1344"></rect></clipPath><clipPath id="clip25"><rect x="0" y="0"
+        width="2107" height="1344"></rect></clipPath><clipPath id="clip26"><rect
+        x="0" y="0" width="2107" height="1344"></rect></clipPath><clipPath
+        id="clip27"><rect x="0" y="0" width="2107"
+        height="1344"></rect></clipPath><clipPath id="clip28"><rect x="0" y="0"
+        width="2107" height="1344"></rect></clipPath><clipPath id="clip29"><rect
+        x="0" y="0" width="2107" height="1344"></rect></clipPath><clipPath
+        id="clip30"><rect x="0" y="0" width="2107"
+        height="1344"></rect></clipPath><clipPath id="clip31"><rect x="0" y="0"
+        width="2107" height="1344"></rect></clipPath><clipPath id="clip32"><rect
+        x="0" y="0" width="2107" height="1344"></rect></clipPath><clipPath
+        id="clip33"><rect x="0" y="0" width="2107"
+        height="1344"></rect></clipPath><clipPath id="clip34"><rect x="0" y="0"
+        width="2107" height="1344"></rect></clipPath><clipPath id="clip35"><rect
+        x="0" y="0" width="2107" height="1344"></rect></clipPath><clipPath
+        id="clip36"><rect x="0" y="0" width="2107"
+        height="1344"></rect></clipPath><clipPath id="clip37"><rect x="0" y="0"
+        width="2107" height="1344"></rect></clipPath><clipPath id="clip38"><rect
+        x="0" y="0" width="2107" height="1344"></rect></clipPath></defs><g
+        clip-path="url(#clip0)"><rect x="0" y="0" width="2107" height="1344"
+        fill="rgba(255,255,255,0)"></rect><g clip-path="url(#clip1)"><path
+        d="M313.5 556.5 1806.5 556.5" stroke="#D9D9D9" stroke-width="3.4375"
+        stroke-linejoin="round" stroke-miterlimit="10" fill="none"
+        fill-rule="evenodd"></path></g><g clip-path="url(#clip2)"><path d="M376
+        320.01 500.016 411.013 625.021 513.017 749.025 531.017 873.029 518.017
+        998.033 1110 1122.04 782.026 1246.04 470.015 1371.04 616.02 1495.05
+        499.016 1620.05 1033.03 1744 116" stroke="#A37720"
+        stroke-width="10.3125" stroke-linecap="round" stroke-linejoin="round"
+        stroke-miterlimit="10" fill="none"></path></g><g
+        clip-path="url(#clip3)"><path d="M376 457 500.016 432.014 625.021
+        452.015 749.025 401.013 873.029 327.011 998.033 313.01 1122.04 296.01
+        1246.04 221.007 1371.04 166.005 1495.05 147 1620.05 226.007 1744
+        173.006" stroke="#17375E" stroke-width="10.3125" stroke-linecap="round"
+        stroke-linejoin="round" stroke-miterlimit="10" fill="none"></path></g><g
+        clip-path="url(#clip4)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="41" transform="matrix(1 0 0 1 1844.52 1200)">0</text></g><g
+        clip-path="url(#clip5)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="41" transform="matrix(1 0 0 1 1844.52
+        1011)">20,000</text></g><g clip-path="url(#clip6)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="41" transform="matrix(1 0 0 1 1844.52
+        821)">40,000</text></g><g clip-path="url(#clip7)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="41" transform="matrix(1 0 0 1 1844.52
+        631)">60,000</text></g><g clip-path="url(#clip8)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="41" transform="matrix(1 0 0 1 1844.52
+        441)">80,000</text></g><g clip-path="url(#clip9)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="41" transform="matrix(1 0 0 1 1844.52
+        252)">100,000</text></g><g clip-path="url(#clip10)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="41" transform="matrix(1 0 0 1 1844.52
+        62)">120,000</text></g><g clip-path="url(#clip11)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="41" transform="matrix(1 0 0 1 126.981
+        1200)">-$50,000</text></g><g clip-path="url(#clip12)"><text
+        fill="#595959" font-family="Calibri,Calibri_MSFontService,sans-serif"
+        font-weight="400" font-size="41" transform="matrix(1 0 0 1 126.981
+        1074)">-$40,000</text></g><g clip-path="url(#clip13)"><text
+        fill="#595959" font-family="Calibri,Calibri_MSFontService,sans-serif"
+        font-weight="400" font-size="41" transform="matrix(1 0 0 1 126.981
+        947)">-$30,000</text></g><g clip-path="url(#clip14)"><text
+        fill="#595959" font-family="Calibri,Calibri_MSFontService,sans-serif"
+        font-weight="400" font-size="41" transform="matrix(1 0 0 1 126.981
+        821)">-$20,000</text></g><g clip-path="url(#clip15)"><text
+        fill="#595959" font-family="Calibri,Calibri_MSFontService,sans-serif"
+        font-weight="400" font-size="41" transform="matrix(1 0 0 1 126.981
+        694)">-$10,000</text></g><g clip-path="url(#clip16)"><text
+        fill="#595959" font-family="Calibri,Calibri_MSFontService,sans-serif"
+        font-weight="400" font-size="41" transform="matrix(1 0 0 1 233.498
+        568)">$0</text></g><g clip-path="url(#clip17)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="41" transform="matrix(1 0 0 1 139.609
+        441)">$10,000</text></g><g clip-path="url(#clip18)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="41" transform="matrix(1 0 0 1 139.609
+        315)">$20,000</text></g><g clip-path="url(#clip19)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="41" transform="matrix(1 0 0 1 139.609
+        188)">$30,000</text></g><g clip-path="url(#clip20)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="41" transform="matrix(1 0 0 1 139.609
+        62)">$40,000</text></g><g clip-path="url(#clip21)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="41" transform="matrix(1 0 0 1 333.96 622)">2010</text></g><g
+        clip-path="url(#clip22)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="41" transform="matrix(1 0 0 1 458.351 622)">2011</text></g><g
+        clip-path="url(#clip23)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="41" transform="matrix(1 0 0 1 582.741 622)">2012</text></g><g
+        clip-path="url(#clip24)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="41" transform="matrix(1 0 0 1 707.131 622)">2013</text></g><g
+        clip-path="url(#clip25)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="41" transform="matrix(1 0 0 1 831.522 622)">2014</text></g><g
+        clip-path="url(#clip26)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="41" transform="matrix(1 0 0 1 955.912 622)">2015</text></g><g
+        clip-path="url(#clip27)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="41" transform="matrix(1 0 0 1 1080.3 622)">2016</text></g><g
+        clip-path="url(#clip28)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="41" transform="matrix(1 0 0 1 1204.69 622)">2017</text></g><g
+        clip-path="url(#clip29)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="41" transform="matrix(1 0 0 1 1329.08 622)">2018</text></g><g
+        clip-path="url(#clip30)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="41" transform="matrix(1 0 0 1 1453.47 622)">2019</text></g><g
+        clip-path="url(#clip31)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="41" transform="matrix(1 0 0 1 1577.86 622)">2020</text></g><g
+        clip-path="url(#clip32)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="41" transform="matrix(1 0 0 1 1702.25 622)">2021</text></g><g
+        clip-path="url(#clip33)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="46" transform="matrix(6.12323e-17 -1 1 6.12323e-17 2037.96
+        929)">GDP for Oil and Gas (basic prices)</text></g><g
+        clip-path="url(#clip34)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="46" transform="matrix(6.12323e-17 -1 1 6.12323e-17 101.292
+        906)">Net Income or Loss ($ millions)</text></g><g
+        clip-path="url(#clip35)"><path d="M383 1278 471 1278" stroke="#A37720"
+        stroke-width="10.3125" stroke-linecap="round" stroke-linejoin="round"
+        stroke-miterlimit="10" fill="none" fill-rule="evenodd"></path></g><g
+        clip-path="url(#clip36)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="41" transform="matrix(1 0 0 1 479.887 1289)">Net income or
+        loss ($ millions)</text></g><g clip-path="url(#clip37)"><path d="M1086
+        1278 1174 1278" stroke="#17375E" stroke-width="10.3125"
+        stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+        fill="none" fill-rule="evenodd"></path></g><g
+        clip-path="url(#clip38)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="41" transform="matrix(1 0 0 1 1182.92 1289)">GDP for Oil and
+        Gas (basic prices)</text></g></g></svg>
+      fr: >-
+        <svg width="2145" height="1268" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+        overflow="hidden" viewBox="0 0 2145 1268"><defs><clipPath
+        id="clip0"><rect x="0" y="0" width="2145"
+        height="1268"></rect></clipPath><clipPath id="clip1"><rect x="0" y="0"
+        width="2145" height="1268"></rect></clipPath><clipPath id="clip2"><rect
+        x="447" y="65" width="1312" height="1039"></rect></clipPath><clipPath
+        id="clip3"><rect x="447" y="65" width="1312"
+        height="1039"></rect></clipPath><clipPath id="clip4"><rect x="0" y="0"
+        width="2145" height="1268"></rect></clipPath><clipPath id="clip5"><rect
+        x="0" y="0" width="2145" height="1268"></rect></clipPath><clipPath
+        id="clip6"><rect x="0" y="0" width="2145"
+        height="1268"></rect></clipPath><clipPath id="clip7"><rect x="0" y="0"
+        width="2145" height="1268"></rect></clipPath><clipPath id="clip8"><rect
+        x="0" y="0" width="2145" height="1268"></rect></clipPath><clipPath
+        id="clip9"><rect x="0" y="0" width="2145"
+        height="1268"></rect></clipPath><clipPath id="clip10"><rect x="0" y="0"
+        width="2145" height="1268"></rect></clipPath><clipPath id="clip11"><rect
+        x="0" y="0" width="2145" height="1268"></rect></clipPath><clipPath
+        id="clip12"><rect x="0" y="0" width="2145"
+        height="1268"></rect></clipPath><clipPath id="clip13"><rect x="0" y="0"
+        width="2145" height="1268"></rect></clipPath><clipPath id="clip14"><rect
+        x="0" y="0" width="2145" height="1268"></rect></clipPath><clipPath
+        id="clip15"><rect x="0" y="0" width="2145"
+        height="1268"></rect></clipPath><clipPath id="clip16"><rect x="0" y="0"
+        width="2145" height="1268"></rect></clipPath><clipPath id="clip17"><rect
+        x="0" y="0" width="2145" height="1268"></rect></clipPath><clipPath
+        id="clip18"><rect x="0" y="0" width="2145"
+        height="1268"></rect></clipPath><clipPath id="clip19"><rect x="0" y="0"
+        width="2145" height="1268"></rect></clipPath><clipPath id="clip20"><rect
+        x="0" y="0" width="2145" height="1268"></rect></clipPath><clipPath
+        id="clip21"><rect x="0" y="0" width="2145"
+        height="1268"></rect></clipPath><clipPath id="clip22"><rect x="0" y="0"
+        width="2145" height="1268"></rect></clipPath><clipPath id="clip23"><rect
+        x="0" y="0" width="2145" height="1268"></rect></clipPath><clipPath
+        id="clip24"><rect x="0" y="0" width="2145"
+        height="1268"></rect></clipPath><clipPath id="clip25"><rect x="0" y="0"
+        width="2145" height="1268"></rect></clipPath><clipPath id="clip26"><rect
+        x="0" y="0" width="2145" height="1268"></rect></clipPath><clipPath
+        id="clip27"><rect x="0" y="0" width="2145"
+        height="1268"></rect></clipPath><clipPath id="clip28"><rect x="0" y="0"
+        width="2145" height="1268"></rect></clipPath><clipPath id="clip29"><rect
+        x="0" y="0" width="2145" height="1268"></rect></clipPath><clipPath
+        id="clip30"><rect x="0" y="0" width="2145"
+        height="1268"></rect></clipPath><clipPath id="clip31"><rect x="0" y="0"
+        width="2145" height="1268"></rect></clipPath><clipPath id="clip32"><rect
+        x="0" y="0" width="2145" height="1268"></rect></clipPath><clipPath
+        id="clip33"><rect x="0" y="0" width="2145"
+        height="1268"></rect></clipPath><clipPath id="clip34"><rect x="0" y="0"
+        width="2145" height="1268"></rect></clipPath><clipPath id="clip35"><rect
+        x="0" y="0" width="2145" height="1268"></rect></clipPath><clipPath
+        id="clip36"><rect x="0" y="0" width="2145"
+        height="1268"></rect></clipPath><clipPath id="clip37"><rect x="0" y="0"
+        width="2145" height="1268"></rect></clipPath><clipPath id="clip38"><rect
+        x="0" y="0" width="2145" height="1268"></rect></clipPath><clipPath
+        id="clip39"><rect x="0" y="0" width="2145"
+        height="1268"></rect></clipPath><clipPath id="clip40"><rect x="0" y="0"
+        width="2145" height="1268"></rect></clipPath><clipPath id="clip41"><rect
+        x="0" y="0" width="2145" height="1268"></rect></clipPath><clipPath
+        id="clip42"><rect x="0" y="0" width="2145"
+        height="1268"></rect></clipPath><clipPath id="clip43"><rect x="0" y="0"
+        width="2145" height="1268"></rect></clipPath></defs><g
+        clip-path="url(#clip0)"><rect x="0" y="0" width="2145" height="1268"
+        fill="rgba(255,255,255,0)"></rect><g clip-path="url(#clip1)"><path
+        d="M447.5 525.5 1756.5 525.5" stroke="#D9D9D9" stroke-width="3.4375"
+        stroke-linejoin="round" stroke-miterlimit="10" fill="none"
+        fill-rule="evenodd"></path></g><g clip-path="url(#clip2)"><path d="M502
+        310.01 611.02 394.013 720.024 487.016 829.027 503.016 938.031 490.016
+        1047.03 1029 1156.04 731.024 1265.04 447.015 1375.05 580.019 1484.05
+        473.016 1593.05 960.031 1702 125" stroke="#CD5E76"
+        stroke-width="10.3125" stroke-linecap="round" stroke-linejoin="round"
+        stroke-miterlimit="10" fill="none"></path></g><g
+        clip-path="url(#clip3)"><path d="M502 435 611.02 413.014 720.024 431.014
+        829.027 385.013 938.031 317.01 1047.03 304.01 1156.04 288.009 1265.04
+        220.007 1375.05 171.006 1484.05 153 1593.05 225.007 1702 177.006"
+        stroke="#D69E2E" stroke-width="10.3125" stroke-linecap="round"
+        stroke-linejoin="round" stroke-miterlimit="10" fill="none"></path></g><g
+        clip-path="url(#clip4)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(1 0 0 1 1807.19 1117)">0</text></g><g
+        clip-path="url(#clip5)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(1 0 0 1 1807.19
+        944)">20,000</text></g><g clip-path="url(#clip6)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(1 0 0 1 1807.19
+        771)">40,000</text></g><g clip-path="url(#clip7)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(1 0 0 1 1807.19
+        599)">60,000</text></g><g clip-path="url(#clip8)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(1 0 0 1 1807.19
+        426)">80,000</text></g><g clip-path="url(#clip9)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(1 0 0 1 1807.19
+        253)">100,000</text></g><g clip-path="url(#clip10)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(1 0 0 1 1807.19
+        81)">120,000</text></g><g clip-path="url(#clip11)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(1 0 0 1 200.266 1117)">-50
+        000$</text></g><g clip-path="url(#clip12)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(1 0 0 1 200.266 1002)">-40
+        000$</text></g><g clip-path="url(#clip13)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(1 0 0 1 200.266 886)">-30
+        000$</text></g><g clip-path="url(#clip14)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(1 0 0 1 200.266 771)">-20
+        000$</text></g><g clip-path="url(#clip15)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(1 0 0 1 200.266 656)">-10
+        000$</text></g><g clip-path="url(#clip16)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(1 0 0 1 328.576 541)"> 0$</text></g><g
+        clip-path="url(#clip17)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(1 0 0 1 217.11 426)">10
+        000$</text></g><g clip-path="url(#clip18)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(1 0 0 1 217.11 311)">20
+        000$</text></g><g clip-path="url(#clip19)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(1 0 0 1 217.11 196)">30
+        000$</text></g><g clip-path="url(#clip20)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(1 0 0 1 217.11 81)">40
+        000$</text></g><g clip-path="url(#clip21)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(0.707107 -0.707107 0.707107 0.707107
+        436.509 676)">2010</text></g><g clip-path="url(#clip22)"><text
+        fill="#595959" font-family="Calibri,Calibri_MSFontService,sans-serif"
+        font-weight="400" font-size="55" transform="matrix(0.707107 -0.707107
+        0.707107 0.707107 545.541 676)">2011</text></g><g
+        clip-path="url(#clip23)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(0.707107 -0.707107 0.707107 0.707107
+        654.572 676)">2012</text></g><g clip-path="url(#clip24)"><text
+        fill="#595959" font-family="Calibri,Calibri_MSFontService,sans-serif"
+        font-weight="400" font-size="55" transform="matrix(0.707107 -0.707107
+        0.707107 0.707107 763.604 676)">2013</text></g><g
+        clip-path="url(#clip25)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(0.707107 -0.707107 0.707107 0.707107
+        872.636 676)">2014</text></g><g clip-path="url(#clip26)"><text
+        fill="#595959" font-family="Calibri,Calibri_MSFontService,sans-serif"
+        font-weight="400" font-size="55" transform="matrix(0.707107 -0.707107
+        0.707107 0.707107 981.668 676)">2015</text></g><g
+        clip-path="url(#clip27)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(0.707107 -0.707107 0.707107 0.707107
+        1090.7 676)">2016</text></g><g clip-path="url(#clip28)"><text
+        fill="#595959" font-family="Calibri,Calibri_MSFontService,sans-serif"
+        font-weight="400" font-size="55" transform="matrix(0.707107 -0.707107
+        0.707107 0.707107 1199.73 676)">2017</text></g><g
+        clip-path="url(#clip29)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(0.707107 -0.707107 0.707107 0.707107
+        1308.76 676)">2018</text></g><g clip-path="url(#clip30)"><text
+        fill="#595959" font-family="Calibri,Calibri_MSFontService,sans-serif"
+        font-weight="400" font-size="55" transform="matrix(0.707107 -0.707107
+        0.707107 0.707107 1417.8 676)">2019</text></g><g
+        clip-path="url(#clip31)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(0.707107 -0.707107 0.707107 0.707107
+        1526.83 676)">2020</text></g><g clip-path="url(#clip32)"><text
+        fill="#595959" font-family="Calibri,Calibri_MSFontService,sans-serif"
+        font-weight="400" font-size="55" transform="matrix(0.707107 -0.707107
+        0.707107 0.707107 1635.86 676)">2021</text></g><g
+        clip-path="url(#clip33)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(6.12323e-17 -1 1 6.12323e-17 2053.87
+        998)">PIB pour le secteur pétrolier et gazier </text></g><g
+        clip-path="url(#clip34)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(6.12323e-17 -1 1 6.12323e-17 2121.85
+        735)">(prix de base)</text></g><g clip-path="url(#clip35)"><text
+        fill="#595959" font-family="Calibri,Calibri_MSFontService,sans-serif"
+        font-weight="400" font-size="55" transform="matrix(6.12323e-17 -1 1
+        6.12323e-17 80.1331 860)">Bénéfices ou pertes nets </text></g><g
+        clip-path="url(#clip36)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(6.12323e-17 -1 1 6.12323e-17 148.118
+        805)">(</text></g><g clip-path="url(#clip37)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(6.12323e-17 -1 1 6.12323e-17 148.118
+        788)">millions de dollars</text></g><g clip-path="url(#clip38)"><text
+        fill="#595959" font-family="Calibri,Calibri_MSFontService,sans-serif"
+        font-weight="400" font-size="55" transform="matrix(6.12323e-17 -1 1
+        6.12323e-17 148.118 384)">)</text></g><g clip-path="url(#clip39)"><text
+        fill="#595959" font-family="Calibri,Calibri_MSFontService,sans-serif"
+        font-weight="400" font-size="55" transform="matrix(1 0 0 1 1030.35
+        1118)">Année</text></g><g clip-path="url(#clip40)"><path d="M126 1194
+        214 1194" stroke="#CD5E76" stroke-width="10.3125" stroke-linecap="round"
+        stroke-linejoin="round" stroke-miterlimit="10" fill="none"
+        fill-rule="evenodd"></path></g><g clip-path="url(#clip41)"><text
+        fill="#595959" font-family="Calibri,Calibri_MSFontService,sans-serif"
+        font-weight="400" font-size="55" transform="matrix(1 0 0 1 223.358
+        1209)">Bénéfices ou pertes nets</text></g><g
+        clip-path="url(#clip42)"><path d="M790 1194 878 1194" stroke="#D69E2E"
+        stroke-width="10.3125" stroke-linecap="round" stroke-linejoin="round"
+        stroke-miterlimit="10" fill="none" fill-rule="evenodd"></path></g><g
+        clip-path="url(#clip43)"><text fill="#595959"
+        font-family="Calibri,Calibri_MSFontService,sans-serif" font-weight="400"
+        font-size="55" transform="matrix(1 0 0 1 887.016 1209)">PIB pour le
+        secteur pétrolier et gazier (prix de base)</text></g></g></svg>
+annotations: []

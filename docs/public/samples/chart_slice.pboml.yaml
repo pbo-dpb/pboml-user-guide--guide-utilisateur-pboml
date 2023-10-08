@@ -1,0 +1,100 @@
+pboml:
+  version: 1.0.0
+slices:
+  - type: chart
+    presentation: figure
+    referenced_as:
+      en: Figure 1-1
+      fr: Figure 1-1
+    label:
+      en: Cost evolution across time
+      fr: L'évolution des coût à travers le temps
+    datatable:
+      variables:
+        fiscalyear:
+          label:
+            en: Fiscal Year
+            fr: Exercice financier
+          type: markdown
+          is_descriptive: true
+          is_time: false
+          skip_chart: false
+          chart_type: bar
+          group: null
+          unit: null
+          tension: 0
+        cost1:
+          label:
+            en: Cost A
+            fr: Cost A
+          type: number
+          is_time: false
+          skip_chart: false
+          chart_type: bar
+          group: null
+          unit:
+            en: $ millions
+            fr: Millions de $
+          tension: 0
+        cost2:
+          label:
+            en: Cost B
+            fr: Cost B
+          type: number
+          is_time: false
+          skip_chart: false
+          chart_type: bar
+          group: null
+          unit: null
+          tension: 0
+        total:
+          label:
+            en: Total
+            fr: Total
+          type: number
+          is_time: false
+          skip_chart: false
+          chart_type: bar
+          group: null
+          unit: null
+          tension: 0
+      content:
+        - emphasize: false
+          skip_chart: false
+          tensions: 0
+          fiscalyear:
+            en: 2020-2021
+            fr: 2020-2021
+          cost1: 2
+          cost2: 2
+          total: 4
+        - emphasize: false
+          skip_chart: false
+          tensions: 0
+          cost1: 7
+          cost2: 4
+          total: 11
+          fiscalyear:
+            en: 2021-2022
+            fr: 2021-2022
+        - emphasize: false
+          skip_chart: false
+          tensions: 0
+          cost1: 5
+          cost2: 6
+          total: 11
+          fiscalyear:
+            en: 2022-2023
+            fr: 2022-2023
+        - emphasize: false
+          skip_chart: false
+          tensions: 0
+          cost1: 11
+          cost2: 8
+          total: 19
+          fiscalyear:
+            en: 2023-2024
+            fr: 2023-2024
+      state:
+        caption: null
+annotations: []
