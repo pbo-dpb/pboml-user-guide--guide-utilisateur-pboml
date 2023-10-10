@@ -61,14 +61,14 @@ export default defineConfig({
                 text: 'Methodology',
                 collapsed: false,
                 items: [
-                  { text: 'Headings', link: '/methodology-headings' },
-                  { text: 'Annotations', link: '/methodology-Key-Value Lists' },
-                  { text: 'Paragraphs', link: '/methodology-paragraphs' },
-                  { text: 'Tables', link: '/methodology-tables' },
-                  { text: 'Charts', link: '/methodology-charts' },
-                  { text: 'SVGs', link: '/methodology-svgs' },
-                  { text: 'Images', link: '/methodology-images' },
-                  { text: 'Key-Value Lists', link: '/methodology-Key-Value Lists' },
+                  { text: 'Annotations', link: '/annotations-references-methodology' },
+                  { text: 'Paragraphs', link: '/paragraphs-methodology' },
+                  { text: 'Headings', link: '/headings-methodology' },
+                  { text: 'Tables', link: '/tables-methodology' },
+                  { text: 'Charts', link: '/charts-methodology' },
+                  { text: 'SVGs', link: '/svgs-methodology' },
+                  { text: 'Images', link: '/images-methodology' },
+                  { text: 'Key-Value Lists', link: '/key-value-lists-methodology' },
                 ]
               },
 
