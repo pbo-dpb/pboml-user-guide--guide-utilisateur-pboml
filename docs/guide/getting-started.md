@@ -1,5 +1,7 @@
 # Getting Started
 
+Start here!
+
 ## Opening the Editor
 
 To open the PBOML Visual Editor, go to any browser on your computer (preferably the Chrome Browser), open *99Bank*. Then do the following:
