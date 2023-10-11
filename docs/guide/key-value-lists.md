@@ -2,7 +2,7 @@
 
 You might need to use a key value list to present for example your sources or the authors of a report. The PBOML Editor allows you to create key value pairs with the *Key-Value List slice*. Here’s how to get started:
 
-1.  First add a key-value slice as explained in the [*Add a slice*](./structure-your-document.html#add-a-slice) ection
+1.  First add a key-value slice as explained in the [*Add a slice*](./structure-your-document.html#add-a-slice) section
 
 ::: info
 In a report, you should indicate the meaning of the keys and values: for example, variables and sources; or, name and email; etc.
