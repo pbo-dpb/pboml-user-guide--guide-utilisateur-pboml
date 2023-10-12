@@ -62,7 +62,7 @@ export default defineConfig({
                 collapsed: false,
                 items: [
                   { text: 'Annotations', link: '/annotations-references-methodology' },
-                  { text: 'Paragraphs', link: '/paragraphs-methodology' },
+                  { text: 'Paragraphs & Text Content', link: '/paragraphs-methodology' },
                   { text: 'Headings', link: '/headings-methodology' },
                   { text: 'Tables', link: '/tables-methodology' },
                   { text: 'Charts', link: '/charts-methodology' },
