@@ -4,11 +4,11 @@ Start here!
 
 ## Opening the Editor
 
-To open the PBOML Visual Editor, go to any browser on your computer (preferably the Chrome Browser), open *99Bank*. Then do the following:
-1. Click on *Publications* link
+To open the PBOML Visual Editor, go to any browser on your computer, open *99Bank*. Then do the following:
+1. Click on *Publications* module
 2. Select the type of publication you are going to work on
 3. Search and click on you desired publication
-4. Click on the *PBOML* link
+4. Click on the *PBOML* form
 
 ![publication_page_leg](/publication_page_leg.png)
 
