@@ -21,9 +21,9 @@ If you uncheck the *Enforce numerical order field*, a new field called *Annotati
 4. Decide what type of content you what to define to represent your annotation: Markdown or Bibtex
 
 ::: info
-There are currently two supported content types: markdown and bibtex. For more details on both, you can visite these ressources:
-* [Markdown Guide](https://www.markdownguide.org/)
-* [Bibtext Guide](https://www.overleaf.com/learn/latex/Bibliography_management_with_bibtex)
+There are currently two supported content types: markdown and bibtex. For more details on both, you can visit these ressources:
+* [Markdown](https://en.wikipedia.org/wiki/Markdown)
+* [Bibtext](https://en.wikipedia.org/wiki/BibTeX)
 :::
 
 5. Finally enter your annotation for each language in their respective text field inside the annotation slice.
@@ -38,7 +38,7 @@ There are currently two supported content types: markdown and bibtex. For more d
 ::: warning
 This feature is still under development.
 :::
-
+<!---
 To reference a slice, you first need to set a reference name for that same slice:
 
 1.  Go to the slice you wish to reference.
@@ -47,13 +47,16 @@ To reference a slice, you first need to set a reference name for that same slice
 
 Then, to reference that slice, within any other section of you document, you simply need to use the reference name inside any text field as follows.
 
+
+RV: This feature might be implemented in another way: any use of the exact anchor's name of a slice [eg. Figure 1] could be automatically linked. Alternatively, a positive enrolment by integrators (such as by using the same syntax as other references but with a slice anchor, eg. [^Figure 1]) might be used.
+-->
 ## In-slice Annotations
 
 These types of annotations can be done directly inside the slice.
 
 ### Textual descriptions
 
-Another way to annotate, is by adding textual descriptions. This is especially useful if you want to explain a graph, a table or any visual reference.
+Textual descriptions might be used to provide supplementary or contextual information to users, in addition of allowing the literal inclusion of textual descriptions. As such, textual descriptions, in a few cases, could allow the author of a report or the integrator to skip the addition of a formal annotation.
 
 1.  Go to the slice in which you want to add a textual description
 2.  Reveal the *Textual Descriptions* tab
@@ -61,9 +64,15 @@ Another way to annotate, is by adding textual descriptions. This is especially u
 
 If you wish to delete a textual description, simply click on the trash symbol 🗑️ on the left of it.
 
+Note that Textual Descriptions are not displayed by default to sighted users. Avoid including information in them if that information cannot be found in the described chart, table, paragraph, etc.
+
 ### Sources
 
-Another way to annotate, is by adding your sources.
+Instead of including references or other type of atribution at the document level, sources can be attached directly to the scope of a slice. This practice should generally be avoided in regular reports (except for content out of the document main flow, such as for asides and figures) as it can conflict with the general structure of the document. Readers may wonder why this note is placed directly after a paragraph, while others are placed at the end of the document.
+
+It is however good to keep this option in mind, especially when converting a Word document that could contain both endnotes and footnotes.
+
+To attach oe or multiple sources to a slice:
 
 1.  Go to the slice in which you want to add a source to
 2.  Reveal the *Sources* tab
@@ -73,7 +82,7 @@ If you wish to delete a source, simply click on the trash symbol 🗑️ on the 
 
 ### Notes
 
-Another way to annotate, is by adding relevant notes.
+In the same way as for sources, notes can be attached to a slice. The same considerations regarding document structure should apply here.
 
 1.  Go to the slice in which you want to add a source to
 2.  Reveal the *Notes*
