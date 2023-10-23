@@ -4,21 +4,13 @@ layout: home
 
 hero:
   name: "PBOML Visual Editor User Guide"
-  tagline: Make your document accessible
+  tagline: The visual editor lets you create accessible, portable and standardized publications.
   actions:
     - theme: brand
       text: Get started
       link: /guide/getting-started
     - theme: alt
-      text: View on GitHub
+      text: Learn more about the PBOML language
       link: https://github.com/pbo-dpb/pboml-parser--parseur-pboml/wiki
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
