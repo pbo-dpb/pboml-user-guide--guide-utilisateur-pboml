@@ -16,6 +16,13 @@ export default defineConfig({
     logo: '/PBOML-userguide-logo.svg',
     siteTitle: false
   },
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: tag => { (tag.startsWith('pboml-parser')) },
+      },
+    }
+  },
   locales: {
     root: {
       label: 'English',

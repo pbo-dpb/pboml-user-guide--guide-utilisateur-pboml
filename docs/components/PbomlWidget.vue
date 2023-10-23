@@ -1,5 +1,5 @@
 <template>
-    <figure ref="figure" :style="{ 'margin-right': setToMargin }">
+    <figure ref="figure" :style="{ 'margin-right': setToMargin }" style="z-index: 100; background-color: white;">
 
         <nav>
             <figcaption v-if="title">{{ title }}</figcaption>
@@ -47,6 +47,7 @@ export default {
         this.retrieveSample();
         this.setBringToMargin();
         window.addEventListener('resize', this.setBringToMargin);
+        this.setAsideContentZIndex();
     },
     components: {
     },
@@ -71,6 +72,13 @@ export default {
             const padding = parseFloat(window.getComputedStyle(contentNode, null).getPropertyValue('padding-left'));
 
             this.setToMargin = `-${container - parentWidth - (2 * padding)}px`
+        },
+        setAsideContentZIndex() {
+            const asideContents = document.querySelectorAll(".aside-content");
+            asideContents.forEach(asideContent => {
+                let parentEl = asideContent.closest('.aside');
+                if (parentEl) parentEl.style.zIndex = -100;
+            })
         }
     },
 
