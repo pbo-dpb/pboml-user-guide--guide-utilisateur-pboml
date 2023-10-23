@@ -18,11 +18,16 @@ async function fetchPbomlParserScriptUrl() {
 }
 const mainScriptPath = await fetchPbomlParserScriptUrl();
 
-const scriptEl = document.createElement('script');
-scriptEl.setAttribute('src', `${pbomlDomain}${mainScriptPath}`);
-scriptEl.setAttribute('type', "module");
-scriptEl.setAttribute('crossorigin', 'anonymous');
-document.body.appendChild(scriptEl);
+try {
+    const scriptEl = document.createElement('script');
+    scriptEl.setAttribute('src', `${pbomlDomain}${mainScriptPath}`);
+    scriptEl.setAttribute('type', "module");
+    scriptEl.setAttribute('crossorigin', 'anonymous');
+    document.body.appendChild(scriptEl);
+} catch (error) {
+
+}
+
 
 export default {
     ...DefaultTheme,

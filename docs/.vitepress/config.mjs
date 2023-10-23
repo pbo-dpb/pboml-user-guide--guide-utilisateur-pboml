@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 
 const defaultThemeConfig = {
+  title: 'PBOML Editor Guide - Guide de l\'éditeur BPOML',
   siteTitle: false,
   logo: {
     src: '/PBOML-userguide-logo.svg',
@@ -10,6 +11,7 @@ const defaultThemeConfig = {
 }
 
 export default defineConfig({
+  "ignoreDeadLinks": true,
   themeConfig: {
     logo: '/PBOML-userguide-logo.svg',
     siteTitle: false
