@@ -1,15 +1,22 @@
 # Add structure to your document
 
-As mentionned in the [What is A Slice](./what-is-a-slice.md) section, the PBOML Visual Editor represents your documents as an ordered sequence of _slices_. So to structure your document, the editor allows you to do many things on your _slices_, more specificaly: *adding*, *deleting*, *duplicating*, *moving*, and *visualizing*.
+As mentionned in the [What is A Slice](./what-is-a-slice.md) section, the basic building block of a PBOML document is a *slice*. The structure of a document depends entirely on the arrangement of its slices: the order in which they appear, their properties (for example, the level of a *header slice*), etc. Consequently, the PBOML Visual Editor represents your documents as an ordered sequence of _slices_. 
+
+To structure your document and its layout, the editor allows you to do many things on your _slices_, more specificaly: *adding*, *deleting*, *duplicating*, *moving*, and *visualizing*.
 
 ## Add a slice
 
 Adding a new slice is very simple:
 
-1.  Go to the location where you want to add a slice
+1.  Go to the location where you want to add a slice.
 2.  Find the <span class="pboml-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-6 h-6"><path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 9a.75.75 0 00-1.5 0v2.25H9a.75.75 0 000 1.5h2.25V15a.75.75 0 001.5 0v-2.25H15a.75.75 0 000-1.5h-2.25V9z" clip-rule="evenodd"></path></svg></span> button  and make sure it is selected so that you can see the slice options
-3.  Click on the type of slice you want to add
-4.  You should see an empty slice editing area of that slice you selected
+3.  Click on the type of slice you want to add.
+4.  You should see an empty slice editing area of that slice you selected.
+
+
+:::info Advanced slice types
+Some slice types, such as LaTeX and HTML slices, are not visible by defaut in the list of slices you can add to a given document. To create one of these slice types, you will have to create a new slice directly in code. See the [PBOML language documentation](https://github.com/pbo-dpb/pboml-parser--parseur-pboml/wiki) for more information.
+:::
 
 ## Delete a slice
 
