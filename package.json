@@ -12,9 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vitepress": "^1.0.0-rc.23"
+    "vitepress": "^1.0.0-rc.24"
   },
-  "dependencies": {
-    "@heroicons/vue": "^2.0.18"
-  }
+  "dependencies": {}
 }
