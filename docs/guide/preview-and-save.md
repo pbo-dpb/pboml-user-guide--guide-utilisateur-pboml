@@ -8,7 +8,7 @@ Before saving your document, we recommend you preview it using the editor's buil
 
 There are two preview options:
 
--	Preview as Raw PBOML
+-	Preview as raw PBOML
 -	Preview final Document
 
 If you click on the *Preview as Raw PBOML* button you will be able to see the machine code representation of the document. You might find useful this preview useful to diagnose issues with problematic content. As mentioned in the [Getting Started](./getting-started.md), we won’t focus on that in this guide.
