@@ -1,6 +1,10 @@
 # Key-Value Lists
 
-You might need to use a key value list to present for example your sources or the authors of a report. The PBOML Editor allows you to create key value pairs with the *Key-Value List slice*. Here’s how to get started:
+Key-value (KV) lists are the best way to present a list of variables and corresponding values. KV lists help organize and present information in a structured and easily understandable way. They are much preferable to other alternatives, such as a bullet list where part of the content would be set in a bold font or a two column table.
+
+The PBOML Editor allows you to create key value pairs with the *Key-Value List slice*.
+
+Here’s how to get started:
 
 1.  First add a key-value slice as explained in the [*Add a slice*](./structure-your-document.html#add-a-slice) section
 
