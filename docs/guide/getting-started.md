@@ -1,6 +1,6 @@
 # Getting Started
 
-Start here!
+Start here! <Icon hero="rocket-launch"></Icon>
 
 ## Opening the Editor
 

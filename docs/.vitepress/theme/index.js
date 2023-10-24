@@ -4,6 +4,7 @@ import DefaultTheme from 'vitepress/theme'
 import './custom.css'
 
 import PbomlWidget from '../../components/PbomlWidget.vue'
+import Icon from '../../components/Icon.js'
 
 const pbomlDomain = "https://pboml.opbo-bdpb.ca/"
 async function fetchPbomlParserScriptUrl() {
@@ -42,5 +43,6 @@ export default {
     },
     enhanceApp(ctx) {
         ctx.app.component('PbomlWidget', PbomlWidget)
+        ctx.app.component('Icon', Icon)
     }
 }
