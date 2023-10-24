@@ -6,13 +6,13 @@ The PBOML language was designed to meet simple but crucial requirements in the c
 
 ## Target Users
 
-The use of PBOML in publishing operations must be possible for a continuum of three levels of users
+The use of PBOML in publishing operations must be possible for a continuum of three levels of users:
 
 - _Administrative staff_: with a one-hour training, with no prior programming experience, to make minor changes (e.g., fixing a typo) via a graphical interface or, very occasionally, directly in a document's source code.
 - _Economic/Financial Analysts_: one hour training and prior experience with command line statistical analysis tools and/or script programming (Stata, MATLAB, R, etc.). These users should be able to assist the developer during the publishing process (by manually modifying numbers or text contained in a pre-structured PBOML document).
 - _Junior Developer_: advanced training, able to manipulate an entire document based on the documentation and involving analysts in the review/publishing process.
 
-PBOML stands in contrast to other alternative formats that are more difficult to operate without extensive training, such as LaTeX.
+PBOML stands in contrast to other alternative formats that are more difficult or impossible to operate without extensive training, such as LaTeX.
 
 ## Human and machine readable
 
@@ -38,7 +38,7 @@ Unlike a solution that would combine the WYSIWIG HTML editor of a CMS with a wor
 
 ## Varied content
 
-The nature of the OPBO's work imposes a great variety of content in the published documents: rich text, graphics and tables are legion.
+The nature of the OPBO's work imposes a great variety of content in the published documents: rich text, charts and tables are legion.
 
 Although PBOML makes extensive use of it in its text slices, the use of a simple markup language (e.g. Markdown) as the only support is too limiting. The use of a predefined structure is also necessary because of the constraint listed earlier of inserting and machine-reading data and metadata in documents.
 
@@ -46,6 +46,6 @@ Although PBOML makes extensive use of it in its text slices, the use of a simple
 
 Due to constraints related to the absence of a team dedicated to the Web infrastructure, most of the operations related to the production process must be done on the client side, without using a server.
 
-Thus, the PBOML related tools (the parser, rendering engine and the content editor) are designed to be executed exclusively in a Web browser. PDF generation is possible manually or through the use of a script running on an on-demand cloud solution (e.g. AWS Lambda). 
+Thus, the PBOML related tools (the parser, rendering engine and the content editor) are designed to be executed exclusively in a Web browser. PDF generation is possible locally or through the use of a script running on an on-demand cloud solution (e.g. AWS Lambda).
 
 Finally, because PBOML files are essentially plain text files, they can be stored and processed seamlessly by information management software packages used in government institutions (e.g. GCdocs).
