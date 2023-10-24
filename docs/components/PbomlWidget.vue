@@ -41,8 +41,6 @@ export default {
             setToMargin: null
         }
     },
-    created() {
-    },
     mounted() {
         this.retrieveSample();
         this.setBringToMargin();

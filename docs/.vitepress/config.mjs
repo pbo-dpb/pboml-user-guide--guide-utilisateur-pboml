@@ -17,6 +17,12 @@ export default defineConfig({
     siteTitle: false
   },
   vue: {
+    /**
+     * This seems to be completely ignored. See  https://vitepress.dev/reference/site-config#vue 
+     * 
+     * #TODO : find a way to make it work or open a bug report
+     * 
+     */
     template: {
       compilerOptions: {
         isCustomElement: tag => { (tag.startsWith('pboml-parser')) },
