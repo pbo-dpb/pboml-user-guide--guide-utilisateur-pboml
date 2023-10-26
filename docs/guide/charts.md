@@ -67,7 +67,7 @@ Once your table is created, you can now proceed to personalize the chart that is
 
 The table slice allows you to choose which variables to hide on the chart. For a reminder on variables see [*Tables – Variable*](./tables.html#variables).
 
-To hide variable, go the the *Variables* section. Once you find the variable you want to hide on the chart, deselect the chart icon <span class="pboml-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-4 w-4"><path d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75zM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 01-1.875-1.875V8.625zM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 013 19.875v-6.75z"></path></svg></span>.
+To hide variable, go the the *Variables* section. Once you find the variable you want to hide on the chart, deselect the chart icon <Icon hero="chart-bar"></Icon>.
 
 ::: info
 The variable that you wish to hide from the chart will not be hidden on the Text version section which displays the original table as if it were inside a table slice.
@@ -77,7 +77,7 @@ The variable that you wish to hide from the chart will not be hidden on the Text
 
 The table slice allows you to choose also which columns to hide on the chart.
 
-To hide columns, go the the *Tabular data* section (for a reminder on tab see [*Table – Tabular data*](./tables.html#tabular-data)). Once you find the column you want to hide on the chart, deselect the chart icon <span class="pboml-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="h-4 w-4"><path d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75zM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 01-1.875-1.875V8.625zM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 013 19.875v-6.75z"></path></svg></span> above it.
+To hide columns, go the the *Tabular data* section (for a reminder on tab see [*Table – Tabular data*](./tables.html#tabular-data)). Once you find the column you want to hide on the chart, deselect the chart icon <Icon hero="chart-bar"></Icon> above it.
 
 ::: info
 The column that you wish to hide from the chart will not be hidden on the *Text version* section which displays the original table.
@@ -87,7 +87,7 @@ The column that you wish to hide from the chart will not be hidden on the *Text 
 
 The chart slice allows you to choose which variables to emphasis on the chart. 
 
-To emphasis a variable, go the the *Variables* section. Once you find the variable you want to emphasis on the chart, select the star icon <span class="pboml-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="h-4 w-4"><path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"></path></svg></span>.
+To emphasis a variable, go the the *Variables* section. Once you find the variable you want to emphasis on the chart, select the star icon <Icon hero="star"></Icon>.
 
 ::: info
 The variable that you wish to emphasis from the chart will be emphasized on the Text version section which displays the original table as if it were inside a table slice.
@@ -97,7 +97,7 @@ The variable that you wish to emphasis from the chart will be emphasized on the 
 
 The table slice allows you to choose also which tabular data to emphasis on the chart. For a reminder on variables see `[Table – Tabular data]`. 
 
-To emphasis a column, go the the *Variables* section. Once you find the column you want to emphasis on the chart, select the star icon <span class="pboml-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="h-4 w-4"><path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd"></path></svg></span> above it.
+To emphasis a column, go the the *Variables* section. Once you find the column you want to emphasis on the chart, select the star icon <Icon hero="star"></Icon> above it.
 
 ::: info
 The variable that you wish to emphasis from the chart will be emphasized on the Text version section which displays the original table as if it were inside a table slice.
