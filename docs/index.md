@@ -3,14 +3,17 @@
 layout: home
 
 hero:
-  name: "PBOML Visual Editor User Guide"
+  name: "PBOML Visual Editor Guide"
   tagline: The visual editor lets you create accessible, portable and standardized publications.
   actions:
     - theme: brand
-      text: Get started
+      text: Analyst Guide
+      link: /analyst/purpose
+    - theme: brand
+      text: PBOML Integrator Guide
       link: /guide/getting-started
-    - theme: alt
-      text: Learn more about the PBOML language
+    - theme: brand
+      text: Technical/Developer Guide
       link: https://github.com/pbo-dpb/pboml-parser--parseur-pboml/wiki
 ---
 

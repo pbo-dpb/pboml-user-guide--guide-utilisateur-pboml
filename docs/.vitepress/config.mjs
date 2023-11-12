@@ -40,8 +40,9 @@ export default defineConfig({
           alt: "PBOML Editor User Guide",
         },
         nav: [
-          { text: 'Guide', link: '/guide/getting-started' },
-          { text: 'FAQ', link: '/faq/' }
+          { text: 'PBOML Integrator Guide', link: '/guide/getting-started' },
+          { text: 'Analyst Guide', link: '/analyst/purpose' },
+          { text: 'Dev Guide', link: 'https://github.com/pbo-dpb/pboml-parser--parseur-pboml' }
         ],
 
         sidebar: {
@@ -88,12 +89,35 @@ export default defineConfig({
               },
 
             ]
+          },
+          '/analyst/': {
+            base: '/analyst/',
+            items: [
+              {
+                text: 'Introduction',
+                collapsed: false,
+                items: [
+                  { text: 'What is PBOML', link: '../guide/what-is-pboml' },
+                  { text: 'Purpose of this guide', link: 'purpose' },
+                ]
+              },
+              {
+                text: 'Methodology',
+                collapsed: false,
+                items: [
+                  { text: 'Paragraphs & Text Content', link: '/paragraphs-methodology' },
+                  { text: 'Tables', link: '/tables-methodology' },
+                  { text: 'Charts', link: '/charts-methodology' },
+                ]
+              },
+
+            ]
           }
         },
 
-        socialLinks: [
-          { icon: 'github', link: 'https://github.com/pbo-dpb/pboml-parser--parseur-pboml' }
-        ]
+        // socialLinks: [
+        //   { icon: 'github', link: 'https://github.com/pbo-dpb/pboml-parser--parseur-pboml' }
+        // ]
       },
     },
     fr: {
