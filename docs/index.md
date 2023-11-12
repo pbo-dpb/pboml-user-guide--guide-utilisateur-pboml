@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Analyst Guide
-      link: /analyst/purpose
+      link: /analyst/objective
     - theme: brand
       text: PBOML Integrator Guide
       link: /guide/getting-started

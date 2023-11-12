@@ -41,7 +41,7 @@ export default defineConfig({
         },
         nav: [
           { text: 'PBOML Integrator Guide', link: '/guide/getting-started' },
-          { text: 'Analyst Guide', link: '/analyst/purpose' },
+          { text: 'Analyst Guide', link: '/analyst/objective' },
           { text: 'Dev Guide', link: 'https://github.com/pbo-dpb/pboml-parser--parseur-pboml' }
         ],
 
@@ -98,7 +98,7 @@ export default defineConfig({
                 collapsed: false,
                 items: [
                   { text: 'What is PBOML', link: '../guide/what-is-pboml' },
-                  { text: 'Purpose of this guide', link: 'purpose' },
+                  { text: "This Guide's Objective", link: '/objective' },
                 ]
               },
               {
