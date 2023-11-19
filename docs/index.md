@@ -13,7 +13,7 @@ hero:
       text: PBOML Integrator Guide
       link: /guide/getting-started
     - theme: brand
-      text: Technical/Developer Guide
+      text: Developer Guide
       link: https://github.com/pbo-dpb/pboml-parser--parseur-pboml/wiki
 ---
 
