@@ -17,7 +17,7 @@ Long paragraphs should only be added using the Markdown slice
 :::
 
 :::info Short explanation for Tables, charts or images  
-If the paragraph is short and is used to explain a [table](), [chart]() or [image](), use the one of the  annotation methods listed
+If the paragraph is short and is used to explain a [table](./tables.md), [chart](./charts.md) or [image](./images.md), use the one of the  annotation methods listed
 :::
 
 :::info Tables inside paragraphs
