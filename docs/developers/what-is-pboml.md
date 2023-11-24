@@ -1,6 +1,8 @@
-# Why PBOML?
+# The PBOML project
 
 PBOML is a language used to publish reports and analyses produced by the Office of the Parliamentary Budget Officer. It was designed to meet the specific requirements of an organization producing specialized publications under time and staffing constraints.
+
+PBOML also designates the tools used to produce and publish documents in this language. These tools include a parser, a rendering engine, and a content editor.
 
 ## Target Users
 

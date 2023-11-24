@@ -11,7 +11,7 @@ const defaultThemeConfig = {
 }
 
 export default defineConfig({
-  "ignoreDeadLinks": true,
+  ignoreDeadLinks: false,
   themeConfig: {
     logo: '/PBOML-userguide-logo.svg',
     siteTitle: false
@@ -41,19 +41,18 @@ export default defineConfig({
         },
         nav: [
           { text: 'Analysts', link: '/analyst/objective' },
-          { text: 'Integrators', link: '/guide/getting-started' },
-          { text: 'Developers', link: 'https://github.com/pbo-dpb/pboml-parser--parseur-pboml/wiki' }
+          { text: 'Integrators', link: '/integrators/getting-started' },
+          { text: 'Developers', link: '/developers/what-is-pboml' }
         ],
 
         sidebar: {
-          '/guide/': {
-            base: '/guide/',
+          '/integrators/': {
+            base: '/integrators/',
             items: [
               {
-                text: 'Introduction',
+                text: 'Integrators',
                 collapsed: false,
                 items: [
-                  { text: 'What is PBOML', link: 'what-is-pboml' },
                   { text: 'Getting Started', link: 'getting-started' },
                   { text: 'What is a Slice?', link: 'what-is-a-slice' },
                   { text: 'Preview & Save', link: 'preview-and-save' },
@@ -98,7 +97,6 @@ export default defineConfig({
                 text: 'Introduction',
                 collapsed: false,
                 items: [
-                  { text: 'What is PBOML', link: '../guide/what-is-pboml' },
                   { text: "This Guide's Objective", link: '/objective' },
                 ]
               },
@@ -112,6 +110,15 @@ export default defineConfig({
                 ]
               },
 
+            ]
+          },
+          '/developers/': {
+            base: '/developers/',
+            items: [
+              { text: 'The PBOML project', link: 'what-is-pboml' },
+
+              { text: 'Toolset', link: 'toolset' },
+              { text: 'Language', link: 'language' },
             ]
           }
         },

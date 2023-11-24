@@ -14,9 +14,9 @@ hero:
       link: /analyst/objective
     - theme: brand
       text: Integrators
-      link: /guide/getting-started
-    - theme: alt
+      link: /integrators/getting-started
+    - theme: brand
       text: Developers
-      link: https://github.com/pbo-dpb/pboml-parser--parseur-pboml/wiki
+      link: /developers/what-is-pboml
 ---
 
