@@ -4,10 +4,10 @@
 This page is still under development.
 :::
 
-:::info The use of key-value pairs
-If your publication uses key-value pairs, you must use the Key-Value Slice
+:::info Use KV lists instead of tables
+A two column table should never be used: key-value lists are much more readable and accessible.
 :::
 
 :::info Key-value labels
-Key-Value slice must always have its keys and values labeled
+When possible, you should provide explicit labels for Keys and Values (e.g. Variable-Source). This allows screen readers to read the list in a more natural and useful way.
 :::

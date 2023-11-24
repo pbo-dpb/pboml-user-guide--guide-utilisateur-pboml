@@ -1,25 +1,31 @@
 # Charts
 
-There are two way you can add a chart with the PBOML Visual Editor: with an *SVG Slice* or a *Chart Slice*. Using the latter is more complex than using the former. We will start with the easiest and most common way to add a chart in a document.
+There are two way you can add a chart with the PBOML Visual Editor: with an *SVG Slice* or a *Chart Slice*. 
 
-## With an SVG slice
+- *SVG Slice* contains an `.svg` image saved in your computer. You can export an `.svg` image from Word.
+- *Chart Slice* contains a table slice that is rendered as an interactive chart.
 
-The *SVG* slice allows the *PBOML Visual Editor* to insert *Scalable Vector Graphics (SVG)* in your final document. SVGs have many advantages especially in terms of accessibility, most notably:
+Chart slices provide a better user experience for the reader, but they are more difficult to create. If you are not sure which one to use, we recommend you start with the *SVG Slice*.
 
-- They can be scaled to infinity
-- Always sharp whatever the device
--	Can be exported directly from Word
+## SVG slices
 
-To add a chart using the SVG slice you first need to have your chart either in a Word document or as an `.svg` image saved in your computer. To export from Word your chart as an SVG, follow these steps:
+### What is a SVG?
 
-Once you have your chart saved as an SVG, you can then insert it in the SVG Slice on the PBOML Editor.
+SVG stands for *Scalable Vector Graphics*. A SVG is an image: it can be a chart, a map, a diagram, etc. They differ from bitmap images (such as `.png` or `.jpg`) in that they are not made of pixels, but of vectors. This means that they can be scaled to infinity without losing quality.
 
-::: details Steps to export from Word your chart to an SVG
+They can also be exported directly from Word.
 
-If you want to start with the English version of the chart, you will need to first change your Language 
-Settings on Windows. When you finish saving your SVG in English on your computer, repeat for the French Language.
+SVG slices are therefore just a wrapper around two SVG images: one for the English version of the chart, and one for the French version.
 
-1.  Right click on the SVG image
+### Add a chart using an *SVG Slice*
+
+#### Saving a chart as an SVG
+
+Each version (one for each language) of the chart must first be saved as an `.svg` image on your computer. The following instructions explain how to do this.
+
+::: details Save an SVG chart from Word or Excel
+
+1.  Right click on the chart
 2.  Click on `[Save as Picture]`
   
 ![svg-from-word-step1](/svg_from_word_step1.png)
@@ -27,27 +33,35 @@ Settings on Windows. When you finish saving your SVG in English on your computer
 3.  Save as a Scalable Vector Graphics
 
 ![svg-from-word-step2](/svg_from_word_step2.png)
+
+⚠️ The regional settings of your computer must be set to English (Canada) when exporting the English version of a chart. Otherwise, the chart will not be exported properly (number formatting might not be correct). The same applies to the French version of the chart: the regional settings of your computer must be set to French (Canada) when exporting them.
+
+To change the regional settings of your computer, go to `Settings > Time & Language > Region > Country or region` and select the appropriate language.
+
+Windows require Word to be completely closed and reopened for the regional settings to be applied. It is therefore recommended to export all charts in one language before changing the regional settings of your computer and exporting the charts in the other language.
+
 :::
 
-Now that you have your chart saved as an SVG. Go to the [*Add a slice*](./structure-your-document.html#add-a-slice) and click on SVG.
+#### Creating an *SVG Slice**
 
-1.  For each language respectively. click on *Choose File* and choose the `.svg` file that you saved that corresponds to the correct language
+ Go to the [*Add a slice*](./structure-your-document.html#add-a-slice) and chose an SVG Vector slice.
 
-2.  Click on the *SVG Tools* tab
+For each language, respectively:
 
-3.  If you notice that your SVG is not rendered properly, try clicking on each option <span class="pboml-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-4 h-4"><path d="M6 3a3 3 0 00-3 3v1.5a.75.75 0 001.5 0V6A1.5 1.5 0 016 4.5h1.5a.75.75 0 000-1.5H6zM16.5 3a.75.75 0 000 1.5H18A1.5 1.5 0 0119.5 6v1.5a.75.75 0 001.5 0V6a3 3 0 00-3-3h-1.5zM12 8.25a3.75 3.75 0 100 7.5 3.75 3.75 0 000-7.5zM4.5 16.5a.75.75 0 00-1.5 0V18a3 3 0 003 3h1.5a.75.75 0 000-1.5H6A1.5 1.5 0 014.5 18v-1.5zM21 16.5a.75.75 0 00-1.5 0V18a1.5 1.5 0 01-1.5 1.5h-1.5a.75.75 0 000 1.5H18a3 3 0 003-3v-1.5z"></path></svg></span>. 
+1.  Click on *Choose File* and pick the `.svg` file that corresponds to the correct language.
+
+If you notice that your SVG is not rendered properly, you can try the following:
+1.  Click on the *SVG Tools* tab.
+2.  Click on one or more of the following buttons:
+    - <Icon hero="viewfinder-circle"></Icon> `Fit` will adjust the SVG image content box so everything is visible - this is useful if the chart is cropped or if there is a lot of white space around it.
+    - <Icon hero="viewfinder-circle"></Icon> `Remove white` will remove the white background (or any white element) of the SVG image - use when the gray checkboard pattern background is hidden by a white background.
+    - <Icon hero="viewfinder-circle"></Icon> `Remove forbidden characters` will remove characters that are not allowed in SVG images - this is most useful if an error message appears instead of your chart.
 
 ::: tip
 If the problem persists, you can try saving again the SVG on your local computer.
 :::
 
-4.  If needed, clean up the SVG by doing the following: removing the white background by clicking on *Remove white*; fitting the image by clicking on *Fit*; and remove forbidden characters with *Remove forbidden characters*.
-
-_You have now inserted a chart using the SVG slice in the PBOML Visual Editor._
-
-### Demonstration - Adding a chart using an *SVG Slice*
-
-<PbomlWidget sample="/samples/svg_slice.pboml.yaml" mode="edit"></PbomlWidget>
+<PbomlWidget sample="/samples/svg_slice.pboml.yaml" mode="edit" title="A chart embedded in an SVG slice"></PbomlWidget>
 
 ## With a chart slice
 

@@ -5,13 +5,13 @@ This page is still under development.
 :::
 
 ::: info Notes and References
-All direct references to annotations found across the PBOML document must refer to an existing annotation located in the *Notes and References* section
+Annotation references are written in the following format: `[^1]`, `[^2]`, `[^3]`, etc. and are used to link to a note or reference.
 :::
 
 ::: info Identifiers
-All annotations identifier must only be written with whole numbers
+Prefer whole numbers (e.g. 1, 2, 3, etc.) to link to a note or reference. Avoid roman numbers, letters, or other symbols.
 :::
 
 ::: info Multiple annotations
-Separate your annotation references when refering to more than one annotation in the same location inside your PBOML document
+Separate your annotation references with a comma and a space (e.g. `[^1], [^2], [^3]`, etc.) when multiple annotations are grouped together.
 :::

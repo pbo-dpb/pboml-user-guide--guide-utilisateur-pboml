@@ -4,27 +4,27 @@
 
 ### Reason
 
-Changes in any text alignment are not supported, including in tables
+Changes in any text alignment are not supported, including in tables.
 
 ### Valid
 
-All text should be uniformly aligned to the left
+All text should be uniformly aligned to the left.
 
 :::
 
-:::details All external links must start with start with “https://” (not “http://”) and insert them as hyperlinks
+:::details Full URLs should not be included in the text: only the link text should be included
 
 ### Reason
 
-Links starting with https are secure, whilst http is not secure. Only secure links can be included in your document. Links should be inserted as an uninterrupted text instead of clumsily inserting long full URLs
+URLs should link words, as part of the uninterrupted text flow. Screen readers will read the full URL if it is inserted in the text.
 
 ### Valid
 
-> Lorem ipsum dolor sit amet
+> Lorem ipsum [dolor sit amet](https://www.example.com).
 
 ### Invalid
 
-> Lorem ipsum dolor sit amet (https://www.lipsum.com/).
+> Lorem ipsum dolor sit amet (https://www.example.com/).
 
 :::
 
@@ -32,7 +32,7 @@ Links starting with https are secure, whilst http is not secure. Only secure lin
 
 ### Reason
 
-This is to maintain uniformity across different publication.
+This is to maintain uniformity across different publication. Additionnaly, the integrators will have to discard non-numeric references and use sequential Arabic numerals instead.
 
 ### Valid 
 
@@ -44,17 +44,17 @@ This is to maintain uniformity across different publication.
 
 :::
 
-:::details If your text contains underlines to create emphasis, use bold or italic instead
+:::details If your text contains underlines to create emphasis, use bold instead
 
 ### Reason 
 
-Underline are often used to highlight links in web compatible formats. Hence to avoid confusion, do not use it to create emphasis on certain parts of your text.
+### Recommendation
+
+It is advised to refrain from using underlines to create emphasis in your text, as this convention is typically reserved for URLs on websites. Using underlines for emphasis can lead to confusion and should be avoided. It is also recommended to avoid using italics for emphasis, as this can be difficult to read for some users. Bold text, when used sparingly, can be used for emphasis.
 
 ### Valid
 
-> **Lorem ipsum dolor sit amet**
->
-> Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+> **Lorem ipsum dolor sit amet** Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 >
 > **Ut enim ad minim veniam**
 >
@@ -62,9 +62,7 @@ Underline are often used to highlight links in web compatible formats. Hence to 
 
 ## Invalid
 
-> <u>Lorem ipsum dolor sit amet</u>
-> 
-> Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+> <u>Lorem ipsum dolor sit amet</u> Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 > 
 > <u>Ut enim ad minim veniam</u>
 >
@@ -72,25 +70,28 @@ Underline are often used to highlight links in web compatible formats. Hence to 
 
 :::
 
-:::details If your text contains multilevel bullet points, modify the content so that you don’t use multilevel bullet points.
+:::details If your text contains multilevel bullet points, consider using headings instead
 
 ### Reason 
 
-To avoid potential accessibility issues, multi-level bullet points are strongly discouraged and should be avoided.
+Multilevel bullet points can cause integration issues and their structure difficult to grasp. While they can be used with simple structures and short lists, analysts should consider alternatives such as headings whenever possible.
 
 ### Valid:
 
-> Modifying federal student financial assistance, including support under the Canada Student Loans Program (CSLP).
-> 
-> Providing student debt relief during the repayment of Canada Student Loans (CSL) and Canada Apprentice Loans (CAL) by first providing student debt relief during the repayment of Canada Student Loans (CSL) and Canada Apprentice Loans (CAL); this can be achieved by setting interest rates to zero, for the 2022-23 fiscal year; and by expanding the Repayment Assistance Plan (RAP) eligibility thresholds and levels of support starting in the 2022-23 loan year. 
+> -	Providing student debt relief during the repayment of Lorem Student Loans (LSL) and Lorem Apprentice Loans (LAL) by:
+>     -	Setting interest rates to zero, for the 2022-23 fiscal year; and
+>     -	Expanding the Lorem Repayment Assistance Scheme (LRAS) eligibility thresholds and levels of support starting in the 2022-23 loan year.
+
 
 ### Invalid
 
-> Modifying federal student financial assistance, including support under the Canada Student Loans Program (CSLP).
-> 
-> -	Providing student debt relief during the repayment of Canada Student Loans (CSL) and Canada Apprentice Loans (CAL) by:
->     -	Setting interest rates to zero, for the 2022-23 fiscal year; and
->     -	Expanding the Repayment Assistance Plan (RAP) eligibility thresholds and levels of support starting in the 2022-23 loan year.
-
+> -	Providing student debt relief during the repayment of Lorem Student Loans (LSL) and Lorem Apprentice Loans (LAL) by:
+>     -	Setting interest rates to zero, for the 2022-23 fiscal year;
+>       -   This measure should allow borrowers to save up to $2,000 over the course of their repayment period.
+>            - Calculations are based on a $25,000 loan with a 5.5% interest rate.
+>       -   Depending on the size of the loan, this measure could reduce the repayment period by up to 2 years.
+>            - This assumes a 10-year repayment period.
+>               -	This aspect of the measure is not applicable to borrowers who have already repaid their loans.
+>     -	Expanding the Lorem Repayment Assistance Scheme (LRAS) eligibility thresholds and levels of support starting in the 2022-23 loan year.
 
 :::

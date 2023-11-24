@@ -47,21 +47,3 @@ annotations:
     content:
       en: Canada Revenue Agency
       fr: Agence du revenu du Canada
-  - id: 2
-    content_type: markdown
-    content:
-      en: Canada Border Services Agency
-      fr: Agence des services frontaliers du Canada
-  - id: 3
-    content_type: markdown
-    content:
-      en: >-
-        The average is based on the five latest fiscal years of available data
-        in the Public Accounts of Canada: 2014-15 to 2018-19. CBSA financial
-        statements do not provide a breakdown of interest and penalties by type
-        of tax collected.
-      fr: >-
-        La moyenne est basée sur les données des cinq dernières années
-        financières figurant dans les Comptes publics du Canada, soit 2014‑2015
-        à 2018-2019. Les états financiers de l’ASFC ne ventilent pas les
-        intérêts et pénalités selon le type de taxe perçue.

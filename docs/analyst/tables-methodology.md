@@ -1,10 +1,10 @@
 # Tables
 
-:::details A table should only be used to represent data
+:::details Tables are only used to present data
 
 ### Reason
 
-Facilitates conversion and reduces ambiguity
+Tables are not meant to be used for styling or formatting content. They are meant to present data in a structured manner. They should also only contain tabular data.
 
 ### Valid
 
@@ -12,22 +12,19 @@ If you use a table it is only for it to contain data
 
 ### Invalid
 
-- Using a table to format text
-- Using a table for styling
+Tables that are used to create a layout or to arrange content.
 
 :::
 
-:::details A table should have one column (or row) that defines the variables of the table
+:::details The first row and the first column of a table must be used to describe the data
 
 ### Reason
 
-To know what data is being presented
+In a table both the first row and column of a table are headers. They describe the value using two different aspects. For example, the first row could describe the values using a temporal aspect while the first column would describe the values using a categorical aspect.
+
+If your table doesn't follow this form, you might want to consider splitting it into multiple tables or use another presentation method (such as a list).
 
 ### Valid
-
-> The first column on the left is the one that defines the variables of the table 
-
-**Cost of proposed measure ($ millions)**
 
 | Fiscal Year | 2023-2024 | 2024-2025 | 2025-2026 | 3-Year Total |
 | :---: | :---: | :---: | :---: | :---: |
@@ -35,36 +32,11 @@ To know what data is being presented
 
 ### Invalid
 
-**Cost of proposed measure ($ millions)**
+> A table with a single aspect
 
 | 2023-2024 | 2024-2025 | 2025-2026 | 3-Year Total |
 | :---: | :---: | :---: | :---: |
 | 7   | 7   | 7   | 21  |
-
-:::
-
-:::details A table must have an index
-
-### Reason
-
-A table without index or with multiple indexes is an unstructured table that is difficult to read and understand
-
-### Valid
-
-> The first row on the top is the one that indexes the variables of the table  
-
-**Cost of proposed measure ($ millions)**
-
-| Fiscal Year | 2023-2024 | 2024-2025 | 2025-2026 | 3-Year Total |
-| :---: | :---: | :---: | :---: | :---: |
-| Total cost | 7   | 7   | 7   | 21  |
-
-### Invalid
-
-**Cost of proposed measure ($ millions)**
-
-| Total cost | 7   | 7   | 7   | 21  |
-| :---: | :---: | :---: | :---: | :---: |
 
 :::
 
@@ -106,11 +78,11 @@ Separate tables should not be title collectively because it can cause confusion 
 
 :::
 
-:::details (See exception) If your table contains merged cells, modify your table so that no merged cell is used
+:::details Merge cells are prohibited (with one exception)
 
 ### Reason
 
-Merge cells are particularily not accessible in web format
+Merge cells are not supported by the editor and can be challenging to implement and maintain in HTML. Additionally, when exported to PDF from Word, merge cells are not accessible. If your table contains merge cells, it is recommended to split the table into multiple tables or use alternative presentation methods, such as a list.
 
 ### Valid
 
@@ -120,6 +92,7 @@ Merge cells are particularily not accessible in web format
 | Subsidy rate | 40% | 30% | 20% |
 
 **Note**
+
 Baseline period: March 14 to April 10, 2021
 
 ### Invalid
@@ -183,7 +156,7 @@ Baseline period: March 14 to April 10, 2021
 
 ### Exception
 
-> There is an exception to this rule when you want to group variables/fields together on a table
+There is one exception to this rule: when one aspect of the described data can be grouped in a overarching category, merged cells can be used by the integrator to avoid repeating prefixes or suffixes in the table. This exception if limited in scope; please consult the production team if you think your table might be eligible for this exception.
 
 <table>
 <thead>
@@ -268,13 +241,23 @@ Baseline period: March 14 to April 10, 2021
 
 :::
 
-:::details If your table contains numerical data, do not attach the units to the numbers
+:::details Do not include units with the data
 
 ### Reason
 
-This allows the table to be more readable and easier to maintain if it ever needs to be modified
+This allows the table to be more readable. It also facilitates the conversion process.
+
+If your table contain aspects that have different units, you can include the unit in the heading cell of the column or row. If your table data share the same unit, you can include the unit in the title of the table or by indicating the unit above the table.
+
 
 ### Valid
+
+
+| Year | 2030 | 2031 | 2032 | 2033 | 2034 |
+| --- | --- | --- | --- | --- | --- |
+| Attendance (%) | 25 | 26 | 23 | 24 | 24 |
+| Cost ($) | 300 | 305 | 308 | 312 | 317 |
+
 
 **Table 1-1 - Total GHG emissions in the agricultural sector broken down by activity**
 
@@ -288,7 +271,14 @@ This allows the table to be more readable and easier to maintain if it ever need
 
 ### Invalid
 
-**Table 1-1 - Total GHG emissions in the agricultural sector broken down by activity**
+
+| Year | 2030 | 2031 | 2032 | 2033 | 2034 |
+| --- | --- | --- | --- | --- | --- |
+| Attendance | 25% | 26% | 23% | 24% | 24% |
+| Cost | $300 | $305 | $308 | $312 | $317 |
+
+
+
 
 | Year | 2017 | 2018 | 2019 | 2020 | 2021 |
 | --- | --- | --- | --- | --- | --- |
@@ -297,3 +287,30 @@ This allows the table to be more readable and easier to maintain if it ever need
 | On-Farm Fuel Use | 14.4 Mt | 15 Mt | 15.3 Mt | 14.3 Mt | 14.3 Mt |
 
 :::
+
+
+
+:::details Cell A1 should describe the either the row or column
+
+### Reason
+
+The first cell of your table is for tabular data: it should describe the either the row or column. Do not leave it blank or use it for any other purpose, as it might trip screen readers.
+
+### Valid
+
+> $ millions
+
+| Year | 2017 | 2018 | 2019 | 2020 | 2021 |
+| --- | --- | --- | --- | --- | --- |
+| Animal Production | 34.8 | 35  | 34.9 | 34.8 | 34.9 |
+| Crop Production | 17.3 | 18.5 | 18.7 | 20.7 | 19.4 |
+| On-Farm Fuel Use | 14.4 | 15  | 15.3 | 14.3 | 14.3 |
+
+### Invalid
+
+| $ millions | 2023-2024 | 2024-2025 | 2025-2026 | 3-Year Total |
+| :---: | :---: | :---: | :---: | :---: |
+| Total cost | 7   | 7   | 7   | 21  |
+
+:::
+

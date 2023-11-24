@@ -7,14 +7,10 @@ slices:
       fr: Figure 1-1
     label:
       en: >-
-        Net Income (or loss) by oil and gas extraction and support services
-        (left axis) and Gross Domestic Product for the oil and gas sector at
-        basic prices (right axis) between 2010 to 2021
+        Net Income by oil and gas extraction
       fr: >-
-        Bénéfices (ou pertes) nets du secteur de l’extraction de pétrole et de
-        gaz et des activités de soutien (axe de gauche) et produit intérieur
-        brut pour le secteur pétrolier et gazier aux prix de base (axe de
-        droite) entre 2010 et 2021
+        Bénéfices nets du secteur de l’extraction de pétrole et de
+        gaz
     content:
       en: >-
         <svg width="2107" height="1344" xmlns="http://www.w3.org/2000/svg"

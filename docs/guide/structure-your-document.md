@@ -15,7 +15,7 @@ Adding a new slice is very simple:
 
 
 :::info Advanced slice types
-Some slice types, such as LaTeX and HTML slices, are not visible by defaut in the list of slices you can add to a given document. To create one of these slice types, you will have to create a new slice directly in code. See the [PBOML language documentation](https://github.com/pbo-dpb/pboml-parser--parseur-pboml/wiki) for more information.
+Some slice types, such as LaTeX, HTML and Bitmap slices, require advanced knowledge of their respective languages or advanced manipulations. These slices are marked with a beaker <Icon hero="beaker"></Icon> icon.
 :::
 
 ## Delete a slice

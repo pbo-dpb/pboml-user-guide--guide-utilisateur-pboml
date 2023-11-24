@@ -4,6 +4,6 @@
 This page is still under development.
 :::
 
-:::info Methodological commonalities between the Table Slice and the Chart slice 
-If using a Chart Slice, the methodology for Tables also applies
+:::info Chart slices are just table slices with bells and whistles
+Every concept that applies to table slices applies to chart slices as well.
 :::

@@ -1,6 +1,6 @@
 # Headings
 
-There are three ways you can add a heading to your document: with a *Heading slice*, by providing a `Title` attribute to an individual slice or within the content directly (using a Markdown header). 
+There are three ways you can add a heading to your document: with a *Heading slice*, by providing a `Title` attribute to an individual slice or within the content directly (using Markdown headers). 
 
 **It is generally preferable to use heading slices to design the structure of a document.** Documents with a single level of depth - all content being equal and contained within each slice - (such as costing notes) can be structured with slice titles only. As for headings inside of Markdown content, we do not recommand them in any situation.
 
@@ -68,6 +68,5 @@ This third option could theoretically be used to partially structure a document,
 Adding a title inside the actual content of a slice is **not recommended**.  The PBOML language exists to serialize content and allow the rapid and concurrent maintenance of bilingual content outside of the document structure. Creating a structure inside of slices goes again't these principles. Practically speaking, such usage would prevent the correct generation of a table of content and could have an impact on the overall accessibility tree of a document.
 
 For these reasons, try to make sure you do not copy from Word any title or heading and instead opt for either of the two options to structure your document: [Use heading slices](./headings.html#heading-slice) or [give your slices a title](./headings.html#slice-title).
-
 :::
 

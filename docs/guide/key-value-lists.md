@@ -18,4 +18,6 @@ In a report, you should indicate the meaning of the keys and values: for example
 
 You can add a new key-value pair to the list by simply click on the ➕ icon; and to delete, just click on the trash 🗑️ icon can on the left of the key-value pair that you want to remove.
 
-<PbomlWidget sample="/samples/kv_slice.pboml.yaml" mode="edit"></PbomlWidget>
+Key-value fields all support Markdown syntax and can be formatted as needed. References to annotations and other slices can also be added to keys and values.
+
+<PbomlWidget sample="/samples/kv_slice.pboml.yaml" mode="edit" title="A key-value slice with three KV pairs"></PbomlWidget>

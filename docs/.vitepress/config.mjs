@@ -60,11 +60,12 @@ export default defineConfig({
                 ]
               },
               {
-                text: 'Key features',
+                text: 'Key concepts',
                 collapsed: false,
                 items: [
-                  { text: 'Structure your Document', link: '/structure-your-document' },
-                  { text: 'Annotations & References', link: '/annotations-references' },
+                  { text: 'Structure', link: '/structure-your-document' },
+                  { text: 'References', link: '/annotations-references' },
+                  { text: 'Slice Descriptors', link: '/slice-descriptors' },
                   { text: 'Paragraphs', link: '/paragraphs' },
                   { text: 'Headings', link: '/headings' },
                   { text: 'Tables', link: '/tables' },
