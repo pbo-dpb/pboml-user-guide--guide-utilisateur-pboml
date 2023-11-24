@@ -40,9 +40,9 @@ export default defineConfig({
           alt: "PBOML Editor User Guide",
         },
         nav: [
-          { text: 'Analyst Guide', link: '/analyst/objective' },
-          { text: 'PBOML Integrator Guide', link: '/guide/getting-started' },
-          { text: 'Developer Guide', link: 'https://github.com/pbo-dpb/pboml-parser--parseur-pboml/wiki' }
+          { text: 'Analysts', link: '/analyst/objective' },
+          { text: 'Integrators', link: '/guide/getting-started' },
+          { text: 'Developers', link: 'https://github.com/pbo-dpb/pboml-parser--parseur-pboml/wiki' }
         ],
 
         sidebar: {
