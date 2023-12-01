@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "PBOML Editor Guide"
+  name: "PBOML Integration Guide"
   tagline: The editor lets you create accessible, portable and standardized publications.
   image:
     src: /PBOML-logo-01.svg

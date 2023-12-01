@@ -3,23 +3,20 @@
 layout: home
 
 hero:
-  name: "PBOML Visual Editor User Guide"
-  text: "PBOML Visual Editor User Guide"
-  tagline: EN FRANÇAIS
+  name: "Guide d'intégration PBOML"
+  tagline: "Le guide d'intégration PBOML est un guide de référence pour les développeurs, les intégrateurs et les analystes."
+  image:
+    src: /PBOML-logo-01.svg
+    alt: PBOML
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      text: Analystes
+      link: /fr/analyst/objective
+    - theme: brand
+      text: Intégrateurs
+      link: /fr/integrators/getting-started
+    - theme: brand
+      text: Développeurs
+      link: /fr/developers/what-is-pboml
 ---
 
