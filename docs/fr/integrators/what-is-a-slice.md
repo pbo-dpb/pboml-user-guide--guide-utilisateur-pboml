@@ -12,7 +12,7 @@ Le type de contenu qu'une tranche peut contenir est déterminé par le type de t
 
 Les documents PBOML peuvent contenir différents types de tranches. Les sections suivantes décrivent chaque type de tranche en détail :
 
-- [Tranche de texte riche (Markdown)](./paragraphes.html)
+- [Tranche de texte riche (Markdown)](./paragraphs.html)
 - [Tranche d'en-tête](./headings.html)
 - [Tranche de tableau](./tables.html)
 - [Tranche de graphique](./charts.html)

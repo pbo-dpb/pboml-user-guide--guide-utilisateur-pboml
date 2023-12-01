@@ -12,6 +12,7 @@ const defaultThemeConfig = {
     prev: false,
     next: false
   },
+
 }
 
 export default defineConfig({
@@ -67,29 +68,29 @@ export default defineConfig({
                 text: 'Key concepts',
                 collapsed: false,
                 items: [
-                  { text: 'Structure', link: '/structure-your-document' },
-                  { text: 'References', link: '/annotations-references' },
-                  { text: 'Slice Descriptors', link: '/slice-descriptors' },
-                  { text: 'Paragraphs', link: '/paragraphs' },
-                  { text: 'Headings', link: '/headings' },
-                  { text: 'Tables', link: '/tables' },
-                  { text: 'Charts', link: '/charts' },
-                  { text: 'Images', link: '/images' },
-                  { text: 'Key-Value Lists', link: '/key-value-lists' },
+                  { text: 'Structure', link: 'structure-your-document' },
+                  { text: 'References', link: 'annotations-references' },
+                  { text: 'Slice Descriptors', link: 'slice-descriptors' },
+                  { text: 'Paragraphs', link: 'paragraphs' },
+                  { text: 'Headings', link: 'headings' },
+                  { text: 'Tables', link: 'tables' },
+                  { text: 'Charts', link: 'charts' },
+                  { text: 'Images', link: 'images' },
+                  { text: 'Key-Value Lists', link: 'key-value-lists' },
                 ]
               },
               {
                 text: 'Methodology',
                 collapsed: false,
                 items: [
-                  { text: 'Annotations', link: '/annotations-references-methodology' },
-                  { text: 'Paragraphs & Text Content', link: '/paragraphs-methodology' },
-                  { text: 'Headings', link: '/headings-methodology' },
-                  { text: 'Tables', link: '/tables-methodology' },
-                  { text: 'Charts', link: '/charts-methodology' },
-                  { text: 'SVGs', link: '/svgs-methodology' },
-                  { text: 'Images', link: '/images-methodology' },
-                  { text: 'Key-Value Lists', link: '/key-value-lists-methodology' },
+                  { text: 'Annotations', link: 'annotations-references-methodology' },
+                  { text: 'Paragraphs & Text Content', link: 'paragraphs-methodology' },
+                  { text: 'Headings', link: 'headings-methodology' },
+                  { text: 'Tables', link: 'tables-methodology' },
+                  { text: 'Charts', link: 'charts-methodology' },
+                  { text: 'SVGs', link: 'svgs-methodology' },
+                  { text: 'Images', link: 'images-methodology' },
+                  { text: 'Key-Value Lists', link: 'key-value-lists-methodology' },
                 ]
               },
 
@@ -109,9 +110,9 @@ export default defineConfig({
                 text: 'Methodology',
                 collapsed: false,
                 items: [
-                  { text: 'Paragraphs & Text Content', link: '/paragraphs-methodology' },
-                  { text: 'Tables', link: '/tables-methodology' },
-                  { text: 'Charts', link: '/charts-methodology' },
+                  { text: 'Paragraphs & Text Content', link: 'paragraphs-methodology' },
+                  { text: 'Tables', link: 'tables-methodology' },
+                  { text: 'Charts', link: 'charts-methodology' },
                 ]
               },
 
@@ -137,6 +138,9 @@ export default defineConfig({
       link: '/fr/',
       themeConfig: {
         ...defaultThemeConfig,
+        outline: {
+          label: "Dans cette page..."
+        },
         logo: {
           ...defaultThemeConfig.logo,
           alt: "Guide d'intégration PBOML",
@@ -164,29 +168,29 @@ export default defineConfig({
                 text: 'Concepts clés',
                 collapsed: false,
                 items: [
-                  { text: 'Structure', link: '/structure-your-document' },
-                  { text: 'Références', link: '/annotations-references' },
-                  { text: 'Descripteurs de tranches', link: '/slice-descriptors' },
-                  { text: 'Texte', link: '/paragraphs' },
-                  { text: 'En-têtes', link: '/headings' },
-                  { text: 'Tableaux', link: '/tables' },
-                  { text: 'Graphiques', link: '/charts' },
-                  { text: 'Images', link: '/images' },
-                  { text: 'Listes clé-valeur', link: '/key-value-lists' },
+                  { text: 'Structure', link: 'structure-your-document' },
+                  { text: 'Références', link: 'annotations-references' },
+                  { text: 'Descripteurs de tranches', link: 'slice-descriptors' },
+                  { text: 'Texte', link: 'paragraphs' },
+                  { text: 'En-têtes', link: 'headings' },
+                  { text: 'Tableaux', link: 'tables' },
+                  { text: 'Graphiques', link: 'charts' },
+                  { text: 'Images', link: 'images' },
+                  { text: 'Listes clé-valeur', link: 'key-value-lists' },
                 ]
               },
               {
                 text: 'Méthodologie',
                 collapsed: false,
                 items: [
-                  { text: 'Annotations', link: '/annotations-references-methodology' },
-                  { text: 'Paragraphes et contenu textuel', link: '/paragraphs-methodology' },
-                  { text: 'En-têtes', link: '/headings-methodology' },
-                  { text: 'Tableaux', link: '/tables-methodology' },
-                  { text: 'Graphiques', link: '/charts-methodology' },
-                  { text: 'SVGs', link: '/svgs-methodology' },
-                  { text: 'Images', link: '/images-methodology' },
-                  { text: 'Listes clé-valeur', link: '/key-value-lists-methodology' },
+                  { text: 'Annotations', link: 'annotations-references-methodology' },
+                  { text: 'Paragraphes et contenu textuel', link: 'paragraphs-methodology' },
+                  { text: 'En-têtes', link: 'headings-methodology' },
+                  { text: 'Tableaux', link: 'tables-methodology' },
+                  { text: 'Graphiques', link: 'charts-methodology' },
+                  { text: 'SVGs', link: 'svgs-methodology' },
+                  { text: 'Images', link: 'images-methodology' },
+                  { text: 'Listes clé-valeur', link: 'key-value-lists-methodology' },
                 ]
               },
 
@@ -199,16 +203,16 @@ export default defineConfig({
                 text: 'Introduction',
                 collapsed: false,
                 items: [
-                  { text: "Raison d'être de ce guide", link: '/objective' },
+                  { text: "Raison d'être de ce guide", link: 'objective' },
                 ]
               },
               {
                 text: 'Méthodologie',
                 collapsed: false,
                 items: [
-                  { text: 'Paragraphes et contenu textuel', link: '/paragraphs-methodology' },
-                  { text: 'Tableaux', link: '/tables-methodology' },
-                  { text: 'Graphiques', link: '/charts-methodology' },
+                  { text: 'Paragraphes et contenu textuel', link: 'paragraphs-methodology' },
+                  { text: 'Tableaux', link: 'tables-methodology' },
+                  { text: 'Graphiques', link: 'charts-methodology' },
                 ]
               },
 
