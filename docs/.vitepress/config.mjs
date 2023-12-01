@@ -147,41 +147,41 @@ export default defineConfig({
             base: '/fr/integrators/',
             items: [
               {
-                text: 'Integrators',
+                text: 'Intégrateurs',
                 collapsed: false,
                 items: [
-                  { text: 'Getting Started', link: 'getting-started' },
-                  { text: 'What is a Slice?', link: 'what-is-a-slice' },
-                  { text: 'Preview & Save', link: 'preview-and-save' },
+                  { text: 'Débuter', link: 'getting-started' },
+                  { text: 'Qu\'est-ce qu\'une tranche ?', link: 'what-is-a-slice' },
+                  { text: 'Aperçu et sauvegarde', link: 'preview-and-save' },
                 ]
               },
               {
-                text: 'Key concepts',
+                text: 'Concepts clés',
                 collapsed: false,
                 items: [
                   { text: 'Structure', link: '/structure-your-document' },
-                  { text: 'References', link: '/annotations-references' },
-                  { text: 'Slice Descriptors', link: '/slice-descriptors' },
-                  { text: 'Paragraphs', link: '/paragraphs' },
-                  { text: 'Headings', link: '/headings' },
-                  { text: 'Tables', link: '/tables' },
-                  { text: 'Charts', link: '/charts' },
+                  { text: 'Références', link: '/annotations-references' },
+                  { text: 'Descripteurs de tranches', link: '/slice-descriptors' },
+                  { text: 'Texte', link: '/paragraphs' },
+                  { text: 'En-têtes', link: '/headings' },
+                  { text: 'Tableaux', link: '/tables' },
+                  { text: 'Graphiques', link: '/charts' },
                   { text: 'Images', link: '/images' },
-                  { text: 'Key-Value Lists', link: '/key-value-lists' },
+                  { text: 'Listes clé-valeur', link: '/key-value-lists' },
                 ]
               },
               {
-                text: 'Methodology',
+                text: 'Méthodologie',
                 collapsed: false,
                 items: [
                   { text: 'Annotations', link: '/annotations-references-methodology' },
-                  { text: 'Paragraphs & Text Content', link: '/paragraphs-methodology' },
-                  { text: 'Headings', link: '/headings-methodology' },
-                  { text: 'Tables', link: '/tables-methodology' },
-                  { text: 'Charts', link: '/charts-methodology' },
+                  { text: 'Paragraphes et contenu textuel', link: '/paragraphs-methodology' },
+                  { text: 'En-têtes', link: '/headings-methodology' },
+                  { text: 'Tableaux', link: '/tables-methodology' },
+                  { text: 'Graphiques', link: '/charts-methodology' },
                   { text: 'SVGs', link: '/svgs-methodology' },
                   { text: 'Images', link: '/images-methodology' },
-                  { text: 'Key-Value Lists', link: '/key-value-lists-methodology' },
+                  { text: 'Listes clé-valeur', link: '/key-value-lists-methodology' },
                 ]
               },
 
@@ -212,10 +212,10 @@ export default defineConfig({
           '/fr/developers/': {
             base: '/fr/developers/',
             items: [
-              { text: 'The PBOML project', link: 'what-is-pboml' },
+              { text: 'Le projet PBOML', link: 'what-is-pboml' },
 
-              { text: 'Toolset', link: 'toolset' },
-              { text: 'Language', link: 'language' },
+              { text: 'Boîte à outils', link: 'toolset' },
+              { text: 'Langage', link: 'language' },
             ]
           }
         },

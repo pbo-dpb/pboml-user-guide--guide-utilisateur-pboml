@@ -1,8 +1,6 @@
 # Images
 
-::: warning
-This page is still under development.
-:::
+
 
 
 ::: info When to use a bitmap image?

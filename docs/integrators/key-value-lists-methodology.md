@@ -1,8 +1,6 @@
 # Key-Value Lists methodology
 
-::: warning
-This page is still under development.
-:::
+
 
 :::info Use KV lists instead of tables
 A two column table should never be used: key-value lists are much more readable and accessible.

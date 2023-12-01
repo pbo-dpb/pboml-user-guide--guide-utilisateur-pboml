@@ -1,8 +1,6 @@
 # Annotation Methodology
 
-::: warning
-This page is still under development.
-:::
+
 
 ::: info Notes and References
 Annotation references are written in the following format: `[^1]`, `[^2]`, `[^3]`, etc. and are used to link to a note or reference.

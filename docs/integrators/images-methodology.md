@@ -1,8 +1,6 @@
 # Images Methodology
 
-::: warning
-This page is still under development.
-:::
+
 
 :::info Prefer SVG images
 SVG images are preferred over bitmap images. SVG images are vector-based and will scale to any size without losing quality. Bitmap images (such as JPEG, PNGs and WebP) will lose quality when scaled up and be blurry when scaled down.
