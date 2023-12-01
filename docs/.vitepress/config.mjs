@@ -8,6 +8,10 @@ const defaultThemeConfig = {
   logo: {
     src: '/PBOML-userguide-logo.svg',
   },
+  docFooter: {
+    prev: false,
+    next: false
+  },
 }
 
 export default defineConfig({
@@ -39,6 +43,7 @@ export default defineConfig({
           ...defaultThemeConfig.logo,
           alt: "PBOML Integration Guide",
         },
+
         nav: [
           { text: 'Analysts', link: '/analyst/objective' },
           { text: 'Integrators', link: '/integrators/getting-started' },
