@@ -5,7 +5,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "npm run docs:dev",
     "docs:dev": "vitepress --host --port 8080 dev docs",
+    "build": "npm run docs:build",
     "docs:build": "vitepress --port 8080 build docs",
     "docs:preview": "vitepress --port 8080 preview docs"
   },
