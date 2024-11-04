@@ -5,14 +5,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vitepress --port 8080 dev docs",
+    "docs:dev": "vitepress --host --port 8080 dev docs",
     "docs:build": "vitepress --port 8080 build docs",
     "docs:preview": "vitepress --port 8080 preview docs"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vitepress": "1.0.0-rc.31"
+    "vitepress": "1.5.0"
   },
   "dependencies": {}
 }
