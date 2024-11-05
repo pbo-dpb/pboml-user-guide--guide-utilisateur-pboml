@@ -1,4 +1,4 @@
-# Guide de Référence Rapide Markdown
+# La syntaxe Markdown
 
 Le langage et l'éditeur PBOML utilisent la syntaxe Markdown pour formater le texte de plusieurs façons. Ce guide fournit une référence rapide pour la syntaxe et les fonctionnalités courantes de Markdown. Il est attendu que les intégrateurs soient familiers avec Markdown pour utiliser efficacement l'éditeur PBOML.
 

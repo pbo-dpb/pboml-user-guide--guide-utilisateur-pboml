@@ -187,7 +187,6 @@ The tables created using this syntax are generally accessible and can be used to
 \*This text is not italicized\*
 ```
 
-
 ## Tips for Using Markdown
 
 - Markdown is designed to be as readable as plain text, so tables or advanced elements might not render properly in plain text editors.

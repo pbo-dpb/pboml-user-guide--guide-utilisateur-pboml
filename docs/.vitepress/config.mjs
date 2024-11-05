@@ -84,6 +84,7 @@ export default defineConfig({
                 text: 'Methodology',
                 collapsed: false,
                 items: [
+                  { text: 'Equations', link: 'equations' },
                   { text: 'Annotations', link: 'annotations-references-methodology' },
                   { text: 'Paragraphs & Text Content', link: 'paragraphs-methodology' },
                   { text: 'Headings', link: 'headings-methodology' },
@@ -185,6 +186,7 @@ export default defineConfig({
                 text: 'Méthodologie',
                 collapsed: false,
                 items: [
+                  { text: 'Équations', link: 'equations' },
                   { text: 'Annotations', link: 'annotations-references-methodology' },
                   { text: 'Paragraphes et contenu textuel', link: 'paragraphs-methodology' },
                   { text: 'En-têtes', link: 'headings-methodology' },
