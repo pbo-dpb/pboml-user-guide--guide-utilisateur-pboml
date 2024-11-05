@@ -68,6 +68,7 @@ export default defineConfig({
                 text: 'Key concepts',
                 collapsed: false,
                 items: [
+                  { text: 'Markdown Syntax', link: 'markdown-syntax' },
                   { text: 'Structure', link: 'structure-your-document' },
                   { text: 'References', link: 'annotations-references' },
                   { text: 'Slice Descriptors', link: 'slice-descriptors' },
@@ -168,6 +169,7 @@ export default defineConfig({
                 text: 'Concepts clés',
                 collapsed: false,
                 items: [
+                  { text: 'Syntaxe Markdown', link: 'markdown-syntax' },
                   { text: 'Structure', link: 'structure-your-document' },
                   { text: 'Références', link: 'annotations-references' },
                   { text: 'Descripteurs de tranches', link: 'slice-descriptors' },
