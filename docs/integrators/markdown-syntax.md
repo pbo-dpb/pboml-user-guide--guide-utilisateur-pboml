@@ -2,6 +2,12 @@
 
 The PBOML language and editor use the Markdown Syntax to format text in many ways. This guide provides a quick reference for common Markdown syntax and features. It is expected that integrators are familiar with Markdown to effectively use the PBOML editor.
 
+## Tips for Using Markdown
+
+- Markdown is designed to be as readable as plain text, so tables or advanced elements might not render properly in plain text editors.
+- Use a Markdown editor or viewer to see the formatted output.
+- Online platforms like GitHub, Reddit, and Stack Overflow use variations of Markdown, so abundant documentation and many examples are available online.
+
 ## Basic Syntax
 
 ### Headers
@@ -98,12 +104,6 @@ In PBOML, true images should be inserted using an [Image slice](./images.html) o
 When importing content from Word, a number of elements that are not images in the original document can be recognized as images by the PBOML editor. For example, charts and inline equations will pasted as images, linking to a file on your computer. Be sure to replace these with the appropriate slice type or syntax. Finding the image syntax in the Markdown content can help you identify these elements.
 :::
 
-### Blockquotes
-- Use `>` for blockquotes.
-
-```markdown
-> This is a blockquote.
-```
 
 ### Equations
 
@@ -130,24 +130,17 @@ $$\Delta^{Hello}$$
 Equations are not a native feature of Markdown and are sometimes tricky to use; to learn more about how to use equations in PBOML flavored Markdown, refer to the [Equations](./equations.html) documentation.
 :::
 
-### Code
 
-The Markdown syntax allow you to include code snippets in your text. Even though code is rarely used in our publications, it can be useful to know this syntax as it can be used to format any text in a monospaced font, without interpretation of the enclosed syntax.
+### Annotations / References
 
-- Inline: Use backticks `` `code` ``.
+Annotations can be created using the `^` symbol, followed by the identifier of the annotation, all in square brackets `[]`. The annotation itself is defined in the *Notes & tefs* tab of the editor. A complete documentation is available on the [*Annotations Key Concepts* Page](./annotations-references.html).
 
 ```markdown
-Here is some `inline code`.
+The sky is blue [^1].
 ```
 
-- Block: Use triple backticks or indent with four spaces.
+In the example above, the annotation uses the identifier `1`.
 
-<pre markdown="1">
-```
-def hello_world():
-    print("Hello, world!")
-```
-</pre>
 
 ### Horizontal Line
 - Create a horizontal rule with `---`, `***`, or `___`.
@@ -170,13 +163,6 @@ def hello_world():
 The tables created using this syntax are generally accessible and can be used to render simple tables, for example in the visual description of a figure. However, for more complex tables, it is recommended to use the [Table slice](./tables.html) in PBOML to ensure that the table is accessible and responsive.
 :::
 
-### Task Lists
-- Use `- [ ]` for tasks.
-
-```markdown
-- [x] Task 1
-- [ ] Task 2
-```
 
 ## Advanced Features
 
@@ -187,8 +173,38 @@ The tables created using this syntax are generally accessible and can be used to
 \*This text is not italicized\*
 ```
 
-## Tips for Using Markdown
+### Blockquotes
+- Use `>` for blockquotes.
 
-- Markdown is designed to be as readable as plain text, so tables or advanced elements might not render properly in plain text editors.
-- Use a Markdown editor or viewer to see the formatted output.
-- Online platforms like GitHub, Reddit, and Stack Overflow use variations of Markdown, so abundant documentation and many examples are available online.
+```markdown
+> This is a blockquote.
+```
+
+
+### Code
+
+The Markdown syntax allow you to include code snippets in your text. Even though code is rarely used in our publications, it can be useful to know this syntax as it can be used to format any text in a monospaced font, without interpretation of the enclosed syntax.
+
+- Inline: Use backticks `` `code` ``.
+
+```markdown
+Here is some `inline code`.
+```
+
+- Block: Use triple backticks or indent with four spaces.
+
+<pre markdown="1">
+```
+def hello_world():
+    print("Hello, world!")
+```
+</pre>
+
+### Task Lists
+- Use `- [ ]` for tasks.
+
+```markdown
+- [x] Task 1
+- [ ] Task 2
+```
+

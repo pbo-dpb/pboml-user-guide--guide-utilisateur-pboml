@@ -2,6 +2,12 @@
 
 Le langage et l'éditeur PBOML utilisent la syntaxe Markdown pour formater le texte de plusieurs façons. Ce guide fournit une référence rapide pour la syntaxe et les fonctionnalités courantes de Markdown. Il est attendu que les intégrateurs soient familiers avec Markdown pour utiliser efficacement l'éditeur PBOML.
 
+## Conseils pour l'utilisation de Markdown
+
+- Markdown est conçu pour être aussi lisible que du texte brut, donc les tableaux ou les éléments avancés peuvent ne pas s'afficher correctement dans les éditeurs de texte brut.
+- Utilisez un éditeur ou un visualiseur Markdown pour voir le rendu formaté.
+- Les plateformes en ligne comme GitHub, Reddit, et Stack Overflow utilisent des variantes de Markdown, donc une documentation abondante et de nombreux exemples sont disponibles en ligne.
+
 ## Syntaxe de Base
 
 ### En-têtes
@@ -98,13 +104,6 @@ Dans PBOML, les vraies images doivent être insérées en utilisant une [tranche
 Lors de l'importation de contenu depuis Word, un certain nombre d'éléments qui ne sont pas des images dans le document original peuvent être reconnus comme des images par l'éditeur PBOML. Par exemple, les graphiques et les équations en ligne seront collés comme des images, avec un lien vers un fichier sur votre ordinateur. Assurez-vous de remplacer ces éléments par le type de tranche ou la syntaxe appropriée. Trouver la syntaxe de l'image dans le contenu Markdown peut vous aider à identifier ces éléments.
 :::
 
-### Citations
-- Utilisez `>` pour les citations.
-
-```markdown
-> Ceci est une citation.
-```
-
 ### Équations
 
 Le parseur PBOML prend en charge les équations LaTeX, dans la mesure où elles sont prises en charge par la bibliothèque KaTeX.
@@ -130,24 +129,15 @@ $$\Delta^{Hello}$$
 Les équations ne sont pas une fonctionnalité native de Markdown et sont parfois difficiles à utiliser ; pour en savoir plus sur l'utilisation des équations dans le Markdown PBOML, consultez la documentation [Équations](./equations.html).
 :::
 
-### Code
+### Annotations / Références
 
-La syntaxe Markdown vous permet d'inclure des extraits de code dans votre texte. Même si le code est rarement utilisé dans nos publications, il peut être utile de connaître cette syntaxe car elle peut être utilisée pour formater tout texte en police à espacement fixe, sans interprétation de la syntaxe incluse.
-
-- En ligne : Utilisez des accents graves `` `code` ``.
+Les annotations peuvent être créées en utilisant le symbole `^`, suivi de l'identifiant de l'annotation, le tout entre crochets `[]`. L'annotation elle-même est définie dans l'onglet *Notes & références* de l'éditeur. Une documentation complète est disponible sur la [page *Concepts clés des annotations*](./annotations-references.html).
 
 ```markdown
-Voici du `code en ligne`.
+Le ciel est bleu [^1].
 ```
 
-- Bloc : Utilisez des accents graves triples ou indentez avec quatre espaces.
-
-<pre markdown="1">
-```
-def bonjour_monde():
-        print("Bonjour, le monde !")
-```
-</pre>
+Dans l'exemple ci-dessus, l'annotation utilise l'identifiant `1`.
 
 ### Ligne Horizontale
 - Créez une règle horizontale avec `---`, `***`, ou `___`.
@@ -188,8 +178,28 @@ Utilisez le backslash `\` pour échapper les caractères Markdown. Ce backlash p
 \*Ce texte n'est pas en italique\*
 ```
 
-## Conseils pour Utiliser Markdown
+### Citations
+- Utilisez `>` pour les citations.
 
-- Markdown est conçu pour être aussi lisible que du texte brut, donc les tableaux ou les éléments avancés pourraient ne pas s'afficher correctement dans les éditeurs de texte brut.
-- Utilisez un éditeur ou un visualiseur Markdown pour voir le rendu formaté.
-- Les plateformes en ligne comme GitHub, Reddit et Stack Overflow utilisent des variations de Markdown, de la documentation abondante et de nombreux exemples sont donc disponibles sur le Web.
+```markdown
+> Ceci est une citation.
+```
+
+### Code
+
+La syntaxe Markdown vous permet d'inclure des extraits de code dans votre texte. Même si le code est rarement utilisé dans nos publications, il peut être utile de connaître cette syntaxe car elle peut être utilisée pour formater tout texte en police à espacement fixe, sans interprétation de la syntaxe incluse.
+
+- En ligne : Utilisez des accents graves `` `code` ``.
+
+```markdown
+Voici du `code en ligne`.
+```
+
+- Bloc : Utilisez des accents graves triples ou indentez avec quatre espaces.
+
+<pre markdown="1">
+```
+def bonjour_monde():
+        print("Bonjour, le monde !")
+```
+</pre>
